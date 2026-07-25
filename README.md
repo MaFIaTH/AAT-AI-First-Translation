@@ -32,31 +32,40 @@ This repository contains the localization scripts, tools, and specialized guides
 
 ---
 
-## 🚀 How to Use an AI Agent to Translate (Optimal Workflow)
+## 🤖 AI Agent Autonomous Workflow (Optimal Translation Execution)
 
-To translate a new script file with maximum efficiency and high-fidelity output, follow these steps:
+You are an agentic AI coding assistant tasked with translating script files in this repository. Follow this optimal autonomous workflow to execute translations efficiently and correctly.
 
-### Step 1: Extract Translatable Dialogue
-Extract only the dialogue rows into a clean, compact text format to strip out engine commands and non-translatable text:
+### Step 1: Automated Dialogue Extraction
+Before starting translation, run `Scripts/translate_helper.py` in your shell using the `extract` command. This strips out engine commands, speaker labels, and non-translatable text into a clean text file, reducing your active context size by ~80%:
 ```bash
-python3 Scripts/translate_helper.py extract -i "Workspace/Original/sc2_0_text_u.txt" -o "Workspace/extracted_dialogue.txt"
+python3 Scripts/translate_helper.py extract -i "Workspace/Original/<file_name>.txt" -o "Workspace/<file_name>_dialogue.txt"
+```
+*Note: Never attempt to translate or parse raw CSV/template scripts directly. Only process the extracted dialogue file.*
+
+### Step 2: Context Selection & Context Loading
+Read and load ONLY the relevant guides from `Guides/` into your active context:
+1. Always load **[agent_guide.md](file:///home/beaver_bloyde/Desktop/ATT%20Project/AI%20Training/Guides/agent_guide.md)** (syntax/formatting rules).
+2. Always load **[name_reference.md](file:///home/beaver_bloyde/Desktop/ATT%20Project/AI%20Training/Guides/name_reference.md)** and **[pronouns_and_relationship.md](file:///home/beaver_bloyde/Desktop/ATT%20Project/AI%20Training/Guides/pronouns_and_relationship.md)** (core characters register).
+3. **Isolate Reference Context:** Read only the active chapter-specific guide (e.g., **[ep3_big_top_reference.md](file:///home/beaver_bloyde/Desktop/ATT%20Project/AI%20Training/Guides/ep3_big_top_reference.md)**). Do not read other episode files to minimize prompt token overhead.
+
+### Step 3: Concurrency and Chunking
+If the extracted dialogue text contains over 300 dialogue lines:
+- Write a short python script to split the dialogue file into smaller files (approx. 300 dialogues each) in your scratch directory.
+- Define a specialized translation subagent type equipped with these guides, and launch multiple subagents concurrently to translate the chunks in parallel.
+- Concatenate the outputs when done.
+
+### Step 4: Automated Merging
+Reassemble the translated dialogue lines back into the original template structure to generate the final playable script in `Workspace/Translated/`:
+```bash
+python3 Scripts/translate_helper.py merge -g "Workspace/Original/<file_name>.txt" -t "Workspace/<file_name>_translated.txt" -o "Workspace/Translated/<file_name>.txt"
 ```
 
-### Step 2: Deploy the Translation Agent
-Deploy your translation agent (or write your prompt) providing `Workspace/extracted_dialogue.txt` as the input. Instruct the agent to reference the localization guides:
-1. Provide **[agent_guide.md](file:///home/beaver_bloyde/Desktop/ATT%20Project/AI%20Training/Guides/agent_guide.md)** for syntax and formatting.
-2. Provide **[name_reference.md](file:///home/beaver_bloyde/Desktop/ATT%20Project/AI%20Training/Guides/name_reference.md)** and **[pronouns_and_relationship.md](file:///home/beaver_bloyde/Desktop/ATT%20Project/AI%20Training/Guides/pronouns_and_relationship.md)** for core registers.
-3. **Only provide the active chapter-specific guide** (e.g. **[ep3_big_top_reference.md](file:///home/beaver_bloyde/Desktop/ATT%20Project/AI%20Training/Guides/ep3_big_top_reference.md)**) to keep the context window small and avoid wasting tokens on rules for inactive characters.
+### Step 5: Integrity Validation
+Before concluding, verify your output:
+- Ensure the line count of the merged output file exactly matches the original template.
+- Write a script to verify that no color formatting commands (`[SetTextColor(...);]`) are wrapped around empty strings `#""`.
+- Verify that spacing after line breaks (`[NewLine();]` and `[ReadKey();]`) starts flush-left, and tag spacing around `<...>` names is tight.
+- Clean up all backslashes (`\`) from the final dialogue lines.
+- Stage your changes and commit them cleanly in git.
 
-### Step 3: Merge Translated Dialogue Back
-Once the agent outputs the translated text file (e.g., `Workspace/translated_dialogue.txt`), merge the translated lines back into the original template structure to generate the final playable script:
-```bash
-python3 Scripts/translate_helper.py merge -g "Workspace/Original/sc2_0_text_u.txt" -t "Workspace/translated_dialogue.txt" -o "Workspace/Translated/sc2_0_text_u.txt"
-```
-
----
-
-## 💡 LLM Token Optimization Tips
-- **Isolate Reference Context**: When feeding rules to your LLM, only supply the spelling guides relevant to the active episode.
-- **Partition in Chunks**: If translating large blocks (1,000+ lines), split the extracted text file into smaller sub-chunks (approx. 300 dialogues each) and translate them concurrently using lightweight subagents.
-- **Index-Targeted Edits**: When retranslating or fixing specific parts, extract only the specific line indices using a script rather than resubmitting the entire file.
