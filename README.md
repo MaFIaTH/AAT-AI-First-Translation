@@ -43,24 +43,18 @@ Copy and paste this template prompt into the chat with your AI agent to ensure o
 ### 📋 Copy-Paste Agent Prompt Template
 
 ```text
-You are an expert Thai localizer. I want you to translate the English dialogue lines located in the file:
+You are an expert Thai localizer. Translate the English dialogue lines located in:
 `[Insert path to Workspace/extracted_dialogue.txt]`
 
-Your goal is to translate only the text after the '->' symbol on each line. Output the translation format exactly as `LINE_XXXXX: English text -> Thai translation`. Do not modify the original line numbers or prefix tags.
+Follow these instructions:
+1. Translate only the text after the '->' symbol on each line. Output format must match `LINE_XXXXX: English text -> Thai translation` exactly. Do not alter line indices.
+2. Read and strictly comply with the formatting rules, spacing conventions, spelling dictionary, and character voice registers detailed in the guides inside the `Guides/` directory:
+   - `Guides/agent_guide.md` (formatting rules, dialogue distribution, whitespace spacing, pacing)
+   - `Guides/name_reference.md` (name wrapping rules, core spellings)
+   - `Guides/pronouns_and_relationship.md` (pronouns, register dynamics)
+   - `Guides/[active_chapter_reference].md` (episode-specific names, terminology, and character registers)
 
-Before you begin, read and strictly comply with the localization and formatting guides in this repository:
-1. Guides/agent_guide.md - Syntax, spacing, phonetic stuttering (e.g. ม-ม-ไม่), punctuation rules, and dialogue distribution.
-2. Guides/name_reference.md - Person name wrapping rule in `<>` brackets (e.g., `<นิค>`, `<มายา>`) and standard core spellings.
-3. Guides/pronouns_and_relationship.md - Core character pronouns and register dynamics (e.g., Maya Fey sibling register vs Pearl Fey polite register).
-4. Guides/[Insert active episode guide, e.g., ep3_big_top_reference.md] - Specific character voice dialects, terminology, and episode spellings.
-
-Important Constraints:
-- Do not overuse casual particles like 'นะ', 'น่ะ', 'ล่ะ'. Maintain Maya's sisterly register naturally by avoiding formal particles (ค่ะ/คะ/นะคะ) instead of repetitive ending particles.
-- Dialogue distribution: Translate the dialogue sections naturally, and distribute the Thai text across the original lines as closely to the original splits as possible. Squash/combine only when grammatically necessary (subsequent combined lines must be left strictly as `#""`).
-- Flush-Left: Any line immediately following a [NewLine();] or [ReadKey();] command must not start with a leading space.
-- No backslashes: Do not escape internal quotation marks with backslashes (\). Use straight double quotes ("").
-
-If the input file has more than 300 dialogue lines, you are highly encouraged to split the file into smaller chunks, translate them using subagents, and concatenate the outputs back to save token limits.
+If the file contains more than 300 dialogue lines, you are highly encouraged to chunk it and translate concurrently using subagents.
 ```
 
 
