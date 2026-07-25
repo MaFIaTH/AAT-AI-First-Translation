@@ -1,0 +1,3237 @@
+[SetTextColor(Green);],,[SetTextColor(Green);]
+"#""February 23, 9:34 AM""",,"#""23 กุมภาพันธ์ 9:34 น."""
+[NewLine();],,[NewLine();]
+"#""District Court""",,"#""ศาลแขวง"""
+[NewLine();],,[NewLine();]
+"#""Defendant Lobby No. 2""",,"#""ห้องพักจำเลยหมายเลข 2"""
+[ReadKey();],,[ReadKey();]
+[SetTextColor(White);],,[SetTextColor(White);]
+,,
+[Lana],,[Lana]
+"#""How did the investigation""",,"#""เมื่อวานการสืบสวนเป็นยังไงบ้างล่ะ"""
+[NewLine();],,[NewLine();]
+"#""go yesterday, Mr. Wright?""",,"#""คุณ<ไรท์>?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Frankly, there are still a lot""",,"#""แปลกมาก มันยังมีหลายอย่าง"""
+[NewLine();],,[NewLine();]
+"#""of...""",,"#""ที่ยัง..."""
+[Wait(20);],,[Wait(20);]
+"#"" gray areas.""",,"#"" ซับซ้อนอยู่"""
+[Op_2D();],,[Op_2D();]
+,,
+[Ema],,[Ema]
+"#""Or rather, the whole thing is""",,"#""หรือบางที มันก็ซับซ้อน"""
+[NewLine();],,[NewLine();]
+"#""one big gray area...""",,"#""ไปหมดทุกอย่าง..."""
+[Op_2D();],,[Op_2D();]
+,,
+[Lana],,[Lana]
+"#""Don't worry about me,""",,"#""ไม่ต้องห่วงฉัน"""
+[NewLine();],,[NewLine();]
+"#""no matter what the outcome.""",,"#""ไม่ว่าจะเกิดอะไรขึ้น"""
+[ReadKey();],,[ReadKey();]
+"#""I'm ready to accept my fate.""",,"#""ฉันก็น้อมรับชะตากรรมไว้แล้ว"""
+[Op_2D();],,[Op_2D();]
+,,
+[Ema],,[Ema]
+"#""I believe in you, sis.""",,"#""หนูเชื่อใจพี่นะ"""
+[Op_2D();],,[Op_2D();]
+,,
+[Lana],,[Lana]
+"#""Mr. Wright, let me offer you""",,"#""ขอแนะนำอะไรอย่างนึงนะ"""
+[NewLine();],,[NewLine();]
+"#""a word of advice.""",,"#""คุณ<ไรท์>"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Yes?""",,"#""ครับ?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Lana],,[Lana]
+"#""A defense attorney should""",,"#""ทนายฝ่ายจำเลยน่ะ"""
+[NewLine();],,[NewLine();]
+"#""never ""believe"" their client.""",,"#""ไม่ควรจะ ""เชื่อ"" ลูกความของตัวเอง"""
+[Op_2D();],,[Op_2D();]
+,,
+[Ema],,[Ema]
+"#""...!""",,"#""...!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Lana],,[Lana]
+"#""The defendant is called to""",,"#""จำเลยน่ะถูกนำมาพิจารณาคดี"""
+[NewLine();],,[NewLine();]
+"#""trial because they are""",,"#""ก็เพราะว่าพวกเขา"""
+[NewLine();],,[NewLine();]
+"#""suspected of wrongdoing!""",,"#""ถูกสงสัยว่าทำความผิด!"""
+[ReadKey();],,[ReadKey();]
+"#""Never forget that.""",,"#""อย่าลืมซะล่ะ"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Ms. Skye, you...""",,"#""คุณ<สกาย>..."""
+[Op_2D();],,[Op_2D();]
+"#""You remind me a lot of Mia.""",,"#""คุณทำให้ผมนึกถึง<มีอา>เลย"""
+[Op_2D();],,[Op_2D();]
+"#""But there is one decisive""",,"#""แต่ระหว่างคุณกับเธอ"""
+[NewLine();],,[NewLine();]
+"#""difference between you""",,"#""มันมีความต่างที่"""
+[NewLine();],,[NewLine();]
+"#""and her.""",,"#""ชัดเจนมากๆ อยู่จุดนึง"""
+[ReadKey();],,[ReadKey();]
+,,
+[Lana],,[Lana]
+"#""And that is?""",,"#""และมันคือ?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""You're not a defense attorney.""",,"#""คุณไม่ใช่ทนายฝ่ายจำเลย"""
+[ReadKey();],,[ReadKey();]
+,,
+[Lana],,[Lana]
+"#""...""",,"#""..."""
+[Wait(40);],,[Wait(40);]
+[NewLine();],,[NewLine();]
+"#""I believe it's almost time""",,"#""ฉันว่ามันคงถึงเวลา"""
+[NewLine();],,[NewLine();]
+"#""for the trial.""",,"#""เข้าศาลแล้ว"""
+[ReadKey();],,[ReadKey();]
+"#""Good luck, Mr. Wright.""",,"#""โชคดีล่ะ คุณ<ไรท์>"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(My first trial without""",,"#""(คดีแรกของฉัน"""
+[NewLine();],,[NewLine();]
+"#""a Fey helping me...)""",,"#""ที่ไม่มีตระกูล<เฟย์>คอยช่วย...)"""
+[ReadKey();],,[ReadKey();]
+"#""(No one's going to bail""",,"#""(ไม่มีใครจะช่วยฉันได้"""
+[NewLine();],,[NewLine();]
+"#""me out this time...)""",,"#""อีกแล้วครั้งนี้...)"""
+[ReadKey();],,[ReadKey();]
+"#""(I'll be alone in there...)""",,"#""(จะมีเพียงแค่ฉันคนเดียวข้างใน...)"""
+[Wait(20);],,[Wait(20);]
+[ReadKey();],,[ReadKey();]
+"#""(So I have to discover the""",,"#""(ดังนั้นแล้ว ฉันจะต้องค้นหา"""
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+[NewLine();],,[NewLine();]
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""truth""",,"#""ความจริง"""
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#"" all by myself!)""",,"#""ทั้งหมดนี้ด้วยตัวเอง!)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_2D();],,[Op_2D();]
+,,
+[Ema],,[Ema]
+"#""Let's do it, Mr. Wright!""",,"#""ลุยกันเลย คุณ<ไรท์>!"""
+[NewLine();],,[NewLine();]
+"#""I'll be with you the whole""",,"#""หนูจะคอยเชียร์คุณอยู่"""
+[NewLine();],,[NewLine();]
+"#""way!""",,"#""ตลอดทาง!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Clear Speaker],,[Clear Speaker]
+[SetTextColor(Green);],,[SetTextColor(Green);]
+"#""February 23, 10:00 AM""",,"#""23 กุมภาพันธ์ 10:00 น."""
+[NewLine();],,[NewLine();]
+"#""District Court""",,"#""ศาลแขวง"""
+[NewLine();],,[NewLine();]
+"#""Courtroom No. 9""",,"#""ห้องพิจารณาคดีหมายเลข 9"""
+[ReadKey();],,[ReadKey();]
+[SetTextColor(White);],,[SetTextColor(White);]
+,,
+[Judge],,[Judge]
+"#""Court is now in session for""",,"#""ศาลจะเข้าสู่การพิจารณาคดี"""
+[NewLine();],,[NewLine();]
+"#""the trial of Ms. Lana Skye.""",,"#""ของคุณ<ลาน่า สกาย>"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""The defense is ready,""",,"#""ฝ่ายจำเลยพร้อมแล้วครับ"""
+[NewLine();],,[NewLine();]
+"#""Your Honor.""",,"#""ท่านผู้พิพากษา"""
+[Op_2D();],,[Op_2D();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""The prosecution has been""",,"#""ฝ่ายโจทก์เองก็พร้อมมาสักพักแล้วครับ"""
+[NewLine();],,[NewLine();]
+"#""ready for a while, Your Honor.""",,"#""ท่านผู้พิพากษา"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(Edgeworth...)""",,"#""(<เอ็จเวิร์ธ>...)"""
+[ReadKey();],,[ReadKey();]
+"#""(It's been two months, but I""",,"#""(ผ่านมาตั้งสองเดือนแล้ว"""
+[NewLine();],,[NewLine();]
+"#""haven't been in a courtroom""",,"#""แต่ฉันก็ไม่ได้ขึ้นศาลเลย"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""since his trial...)""",,"#""ตั้งแต่คดีของเขา...)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""I hope that personal feelings""",,"#""ผมหวังว่าความรู้สึกส่วนตัว"""
+[NewLine();],,[NewLine();]
+"#""will not be a part of the""",,"#""จะไม่มาพัวพันกับ"""
+[NewLine();],,[NewLine();]
+"#""proceedings today, Mr. Wright.""",,"#""คดีวันนี้นะ คุณ<ไรท์>"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""...!""",,"#""...!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""I will choose the path I think""",,"#""ผมจะเลือกทางที่ผมคิด"""
+[NewLine();],,[NewLine();]
+"#""is right, regardless of what""",,"#""ว่ามันถูก ไม่ว่าคนรอบๆ ตัวผม"""
+[NewLine();],,[NewLine();]
+"#""those around me might say.""",,"#""จะคิดหรือพูดยังไง"""
+[ReadKey();],,[ReadKey();]
+"#""The judgment to be made here""",,"#""การตัดสินมันขึ้นอยู่กับพวกเรา"""
+[NewLine();],,[NewLine();]
+"#""is in our hands, not those""",,"#""ไม่ใช่ด้วยน้ำมือ"""
+[NewLine();],,[NewLine();]
+"#""of anyone else.""",,"#""ของใครทั้งนั้น"""
+[Op_2D();],,[Op_2D();]
+,,
+[Judge],,[Judge]
+"#""Very well, Mr. Edgeworth, your""",,"#""ถ้าอย่างนั้น คุณ<เอ็จเวิร์ธ>"""
+[NewLine();],,[NewLine();]
+"#""opening statement please.""",,"#""แถลงเปิดคดีด้วยครับ"""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""Chief Prosecutor Lana Skye""",,"#""อัยการสูงสุด<ลาน่า สกาย>"""
+[NewLine();],,[NewLine();]
+"#""has committed an unpardonable""",,"#""ได้ก่อคดีที่มิอาจให้อภัยได้"""
+[NewLine();],,[NewLine();]
+"#""crime.""",,"#"""""
+[ReadKey();],,[ReadKey();]
+"#""Not only this, but she was""",,"#""นอกจากนั้น เธอยังก่อคดีอย่างอุกอาจ"""
+[NewLine();],,[NewLine();]
+"#""rash enough to commit it in""",,"#""ที่ได้มาลงมือในลานจอดรถ"""
+[NewLine();],,[NewLine();]
+"#""the Prosecutor's Office lot!""",,"#""ของสำนักงานอัยการเอง!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""Wow... """,,"#""โหว... """
+[Wait(20);],,[Wait(20);]
+"#""He's much more forceful""",,"#""เขาดุดุดันไม่เกรงใจใคร"""
+[NewLine();],,[NewLine();]
+"#""in person.""",,"#""กว่าที่คิดซะอีก"""
+[ReadKey();],,[ReadKey();]
+"#""I suddenly feel like""",,"#""หนูรู้สึกอยากจะสารภาพ"""
+[NewLine();],,[NewLine();]
+"#""confessing to everything!""",,"#""ทุกอย่างที่ทำเลย!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""However, she will now pay for""",,"#""ยังไงก็ตาม ถึงเวลาแล้ว"""
+[NewLine();],,[NewLine();]
+"#""her rashness with her life.""",,"#""ที่เธอจะต้องชดใช้ด้วยชีวิต"""
+[ReadKey();],,[ReadKey();]
+"#""There was a witness to her""",,"#""มันมีพยานผู้พบเห็น"""
+[NewLine();],,[NewLine();]
+"#""crime...""",,"#""การก่ออาชญากรรมของเธอ..."""
+[ReadKey();],,[ReadKey();]
+"#""A ""professional"" witness!""",,"#""พยาน ""มืออาชีพ""!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Well then, call your first""",,"#""ถ้างั้น เชิญพยานปากแรก"""
+[NewLine();],,[NewLine();]
+"#""witness, Mr. Edgeworth!""",,"#""ออกมาได้เลย คุณ<เอ็จเวิร์ธ>!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""The prosecution calls its""",,"#""ฝ่ายโจทก์ขอเบิกตัว"""
+[NewLine();],,[NewLine();]
+"#""first witness, Ms. Angel""",,"#""พยานปากแรก คุณ<แองเจิล สตาร์>"""
+[NewLine();],,[NewLine();]
+"#""Starr, to the stand.""",,"#""ขึ้นคอกพยานครับ"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(The ""Cough-up Queen""...?)""",,"#""(""เจ้าแม่จับโป๊ะ"" อะนะ...?)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Hmm?""",,"#""หืมม?"""
+[Wait(20);],,[Wait(20);]
+"#"" Haven't I seen you""",,"#"" ไม่ใช่ว่าผมเห็นคุณ"""
+[NewLine();],,[NewLine();]
+"#""somewhere...?""",,"#""มาก่อนรึเปล่า...?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""You ordered the Caviar""",,"#""คุณสั่ง ""เซ็ตคาเวียร์เพลาเที่ยง"""""
+[NewLine();],,[NewLine();]
+"#""Lunch, right?""",,"#""สินะคะ?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Ho ho!""",,"#""โฮ่ โฮ่!"""
+[Wait(20);],,[Wait(20);]
+"#"" Caviar!""",,"#"" คาเวียร์!"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""I've never eaten caviar""",,"#""ผมไม่เคยกินคาเวียร์"""
+[NewLine();],,[NewLine();]
+"#""before!""",,"#""มาก่อนเลย!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(The judge is really""",,"#""(ผู้พิพากษาสวาปาม"""
+[NewLine();],,[NewLine();]
+"#""wolfing it down...)""",,"#""ซะเกลี้ยงเลย...)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""Ah, and for you... I have""",,"#""อ้ะ ของคุณ... ฉันมี"""
+[NewLine();],,[NewLine();]
+"#""a Fiesta Bowl.""",,"#""""เซ็ตชามหฤหรรษ์"""""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Uh...""",,"#""เอ่อ..."""
+[Wait(20);],,[Wait(20);]
+"#"" thanks.""",,"#"" ขอบคุณ"""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""Will the witness state""",,"#""พยานบอกชื่อ"""
+[NewLine();],,[NewLine();]
+"#""her name and profession?""",,"#""และอาชีพหน่อยครับ"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""Ah, and you, sir...""",,"#""อ้า แล้วก็คุณค่ะ..."""
+[NewLine();],,[NewLine();]
+[Wait(15);],,[Wait(15);]
+[Wait(36);],,[Wait(36);]
+[Wait(30);],,[Wait(30);]
+"#""Did you order ""The """,,"#""ที่คุณสั่งคือ"""
+[NewLine();],,[NewLine();]
+"#""Fingerprint"" lunchbox?""",,"#""""เซ็ตลายนิ้วมือ"" ใช่ไหมคะ?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""It is too early for lunch.""",,"#""ยังเร็วไปสำหรับมื้อเที่ยงครับ"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""Your name and profession,""",,"#""บอกชื่อ อาชีพ"""
+[NewLine();],,[NewLine();]
+"#""please.""",,"#""มาทีครับ"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""...""",,"#""..."""
+[ReadKey();],,[ReadKey();]
+"#""Well, Your Honor?""",,"#""งั้น ท่านคะ?"""
+[NewLine();],,[NewLine();]
+"#""How does it taste?""",,"#""รสชาติเป็นยังไงบ้าง?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""So this is why everyone raves""",,"#""นี่สินะเหตุผลที่ทุกคนพูดถึง"""
+[NewLine();],,[NewLine();]
+"#""about caviar!""",,"#""คาเวียร์กันเยอะขนาดนี้!"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""It's so tasty it hurts!""",,"#""อร่อยแทบขาดใจ!"""
+[ReadKey();],,[ReadKey();]
+"#""I always thought caviar""",,"#""ผมนึกว่าคาเวียร์"""
+[NewLine();],,[NewLine();]
+"#""would taste like pickled""",,"#""จะรสชาติเหมือนกับ"""
+[NewLine();],,[NewLine();]
+"#""tapioca.""",,"#""มันสำปะหลังดองซะอีก"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(What the heck does pickled""",,"#""(แล้วมันสำปะหลังดอง"""
+[NewLine();],,[NewLine();]
+"#""tapioca taste like!?)""",,"#""มันรสชาติยังไงเนี่ย!?)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""Name.""",,"#""ชื่อ"""
+[Wait(20);],,[Wait(20);]
+"#"" Profession.""",,"#"" อาชีพ"""
+[Wait(20);],,[Wait(20);]
+"#"" Now.""",,"#"" เร็ว"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""Me?""",,"#""ฉันเหรอ?"""
+[Wait(20);],,[Wait(20);]
+"#"" The name is Angel Starr.""",,"#"" ฉันชื่อ<แองเจิล สตาร์>"""
+[NewLine();],,[NewLine();]
+"#""Don't go forgetting it.""",,"#""อย่าลืมซะล่ะ"""
+[ReadKey();],,[ReadKey();]
+"#""I find myself running""",,"#""ช่วงนี้ฉันคอยดูแล"""
+[NewLine();],,[NewLine();]
+"#""Lunchland these days.""",,"#""ดินแดนข้าวเที่ยงอยู่"""
+[ReadKey();],,[ReadKey();]
+"#""Is...""",,"#""นี่ใช่..."""
+[Wait(20);],,[Wait(20);]
+"#"" that what you wanted""",,"#"" สิ่งที่คุณต้องการให้พูดใช่ไหม"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""me to say, Mr. Edgeworth?""",,"#""คุณ<เอ็จเวิร์ธ>?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""Very well, witness.""",,"#""ถ้างั้น พยาน"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""Please describe the incident""",,"#""โปรดบอกสิ่งที่เกิดขึ้น"""
+[NewLine();],,[NewLine();]
+"#""to us.""",,"#""ให้เราฟังที"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""The prosecution will wait!""",,"#""ฝ่ายโจทก์รอไปก่อน!"""
+[NewLine();],,[NewLine();]
+"#""I'm not finished eating...""",,"#""ผมยังกินไม่เสร็จ..."""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(Hurry it up!)""",,"#""(ก็เร็วๆ สิเฮ้ย!)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Mmmm...""",,"#""งืมมม..."""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""Very well, Mr. Edgeworth.""",,"#""ถ้างั้น คุณ<เอ็จเวิร์ธ>"""
+[ReadKey();],,[ReadKey();]
+"#""As you know, we usually call""",,"#""เท่าที่คุณรู้ ปกติพวกเราจะเบิกตัว"""
+[NewLine();],,[NewLine();]
+"#""on the police to provide a""",,"#""ตำรวจมาเพื่อฟังเนื้อหาของคดี..."""
+[NewLine();],,[NewLine();]
+"#""description of the crime...""",,"#"""""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""Your Honor, as Mr. Edgeworth""",,"#""ท่านผู้พิพากษาคะ ตามที่คุณ<เอ็จเวิร์ธ>"""
+[NewLine();],,[NewLine();]
+"#""has said to the court...""",,"#""ได้กล่าวต่อศาล..."""
+[ReadKey();],,[ReadKey();]
+"#""I am a...""",,"#""ฉันเป็น..."""
+[Wait(20);],,[Wait(20);]
+"#"" ""professional.""""",,"#"" ""มืออาชีพ"""""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Uh...""",,"#""เอ่อ..."""
+[Wait(20);],,[Wait(20);]
+"#"" Huh?""",,"#"" เหอ?"""
+[NewLine();],,[NewLine();]
+"#""What exactly does that mean?""",,"#""แล้วนั่นหมายความว่ายังไง?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""Until two years ago, Ms.""",,"#""จนถึงเมื่อสองปีก่อน"""
+[NewLine();],,[NewLine();]
+"#""Angel Starr was a special""",,"#""คุณ<แองเจิล สตาร์> เธอเป็น"""
+[NewLine();],,[NewLine();]
+"#""investigator with the police.""",,"#""สายสืบคดีพิเศษให้ตำรวจ"""
+[Op_2D();],,[Op_2D();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""She was a first-rate""",,"#""เธอเคยเป็นสายสืบ"""
+[NewLine();],,[NewLine();]
+"#""homicide detective.""",,"#""คดีอาชญากรรมอันดับหนึ่ง"""
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""Wh-""",,"#""ห๊ะ-"""
+[Wait(8);],,[Wait(8);]
+"#""whaaaat!?""",,"#""ห๊าาาาา!?"""
+[NewLine();],,[NewLine();]
+"#""Ms. Starr was a """,,"#""คุณ<สตาร์>เคยเป็น"""
+"#""detective!?""",,"#""ตำรวจเหรอ!?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""...""",,"#""..."""
+[ReadKey();],,[ReadKey();]
+"#""Aaa""",,"#""อ๊าา"""
+"#""aaa""",,"#""าาา"""
+"#""aaa""",,"#""าาา"""
+"#""aaa""",,"#""าาา"""
+"#""aaa""",,"#""าาา"""
+"#""aaa""",,"#""าาา"""
+"#""a-""",,"#""า-"""
+[Wait(8);],,[Wait(8);]
+"#""h""",,"#""ห๊"""
+"#""ah!""",,"#""าา!"""
+[ReadKey();],,[ReadKey();]
+"#""I-""",,"#""ผ-"""
+[Wait(8);],,[Wait(8);]
+"#""I """,,"#""ผม"""
+"#""know who you are!!!""",,"#""รู้ว่าคุณคือใคร!!!"""
+[NewLine();],,[NewLine();]
+"#""Cough-up...!?""",,"#""เจ้าแม่...!?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""Cough-up Queen Angel Starr,""",,"#""เจ้าแม่จับโป๊ะ <แองเจิล สตาร์>ค่ะ"""
+[NewLine();],,[NewLine();]
+"#""Your Honor.""",,"#""ท่านผู้พิพากษา"""
+[NewLine();],,[NewLine();]
+"#""Long time no see.""",,"#""ไม่ได้เจอกันนานนะคะ"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""V-""",,"#""ถ-"""
+[Wait(8);],,[Wait(8);]
+"#""v-""",,"#""ถ-"""
+[Wait(8);],,[Wait(8);]
+"#""very """,,"#""ถ้าอย่าง"""
+"#""well!""",,"#""นั้น!"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""Y-""",,"#""ค-"""
+[Wait(8);],,[Wait(8);]
+"#""you may continue with""",,"#""คุณเชิญพูดต่อได้เลย"""
+[NewLine();],,[NewLine();]
+"#""the description, Ms. Starr!""",,"#""คุณ<สตาร์>!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(Just who is this lady!?)""",,"#""(สรุปสาวคนนี้มันเป็นใครเนี่ย!?)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""If I might have the court's""",,"#""ขอให้ศาลรับฟังตรงนี้"""
+[NewLine();],,[NewLine();]
+"#""attention over here...""",,"#""สักครู่นะคะ..."""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""The parking lot at the""",,"#""ลานจอดรถที่สำนักงานอัยการ"""
+[NewLine();],,[NewLine();]
+"#""Prosecutor's Office is""",,"#""ถูกแบ่งออกเป็นสองโซน"""
+[NewLine();],,[NewLine();]
+"#""divided into two blocks.""",,"#"""""
+[ReadKey();],,[ReadKey();]
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""A Block""",,"#""โซน A"""
+[SetTextColor(White);],,[SetTextColor(White);]
+"#"" is for the""",,"#"" สำหรับ"""
+[NewLine();],,[NewLine();]
+"#""Prosecutor's Office personnel.""",,"#""เจ้าหน้าที่สำนักงานอัยการ"""
+[ReadKey();],,[ReadKey();]
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""B Block""",,"#""โซน B"""
+[SetTextColor(White);],,[SetTextColor(White);]
+"#"" is for visitors""",,"#"" สำหรับผู้มาติดต่อ"""
+[NewLine();],,[NewLine();]
+"#""and clients...""",,"#""และบุคคลภายนอก..."""
+[ReadKey();],,[ReadKey();]
+"#""A chain divider separates""",,"#""มีรั้วเหล็กกั้นแบ่งโซน"""
+[NewLine();],,[NewLine();]
+"#""the two blocks.""",,"#""ระหว่างสองโซน"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""I suppose that's to keep""",,"#""ศาลคิดว่านั่นคงจะทำให้"""
+[NewLine();],,[NewLine();]
+"#""visitors from taking up""",,"#""คนนอกไม่สามารถใช้ที่จอด"""
+[NewLine();],,[NewLine();]
+"#""prosecutor's spaces, yes?""",,"#""ของอัยการได้ใช่ไหม?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""The crime took place by a""",,"#""สถานที่เกิดเหตุคือ"""
+[NewLine();],,[NewLine();]
+"#""car in the back of """,,"#""รถยนต์ในแถวหลังของ """
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""A Block""",,"#""โซน A"""
+[SetTextColor(White);],,[SetTextColor(White);]
+"#"",""",,"#"""""
+[NewLine();],,[NewLine();]
+"#""in the car's trunk.""",,"#""ในท้ายรถ"""
+[ReadKey();],,[ReadKey();]
+"#""The killer stabbed the""",,"#""ฆาตกรแทงเหยี่อ"""
+[NewLine();],,[NewLine();]
+"#""victim """,,"#"""""
+"#""with this """,,"#""ด้วย"""
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""knife""",,"#""มีด"""
+[SetTextColor(White);],,[SetTextColor(White);]
+"#"" and""",,"#""เล่มนี้"""
+[NewLine();],,[NewLine();]
+"#""went to drive the body out.""",,"#""และกำลังจะขนย้ายศพออกไป"""
+[ReadKey();],,[ReadKey();]
+"#""Unfortunately for her there""",,"#""แต่น่าเสียดายที่มีพยานมาพบเห็น"""
+[NewLine();],,[NewLine();]
+"#""was a witness, and an arrest""",,"#""ทำให้เธอถูกจับกุม"""
+[NewLine();],,[NewLine();]
+"#""was made on the spot.""",,"#""คาหนังคาเขา"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""And who was this""",,"#""แล้วใครกันที่เป็น"""
+[NewLine();],,[NewLine();]
+"#""valiant ""witness""...?""",,"#""""พยาน"" ผู้กล้าคนนี้...?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""Why, """,,"#""จะใครล่ะ """
+[Wait(15);],,[Wait(15);]
+"#""it was me,""",,"#""ก็ฉันเอง"""
+[Wait(15);],,[Wait(15);]
+"#"" Your Honor.""",,"#"" ท่านผู้พิพากษา"""
+[Op_2D();],,[Op_2D();]
+,,
+[Clear Speaker],,[Clear Speaker]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""Parking Lot Floor Plans""",,"#""แผนผังลานจอดรถ"""
+[NewLine();],,[NewLine();]
+"#""added to the Court Record.""",,"#""ถูกเพิ่มลงในบันทึกคดี"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_2D();],,[Op_2D();]
+,,
+[Judge],,[Judge]
+"#""Witness, did you see the""",,"#""พยาน นี่คุณเห็น"""
+[NewLine();],,[NewLine();]
+"#""very moment of the crime?""",,"#""ตอนที่เกิดการฆาตกรรมเลยเหรอ?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""Of course,""",,"#""แน่นอนค่ะ"""
+[Wait(15);],,[Wait(15);]
+"#"" Your Honor.""",,"#"" ท่านผู้พิพากษา"""
+[ReadKey();],,[ReadKey();]
+"#""Immediately after that,""",,"#""ทันทีหลังจากตอนนั้น"""
+[NewLine();],,[NewLine();]
+"#""I apprehended the Chief""",,"#""ฉันก็ควบคุมตัว"""
+[NewLine();],,[NewLine();]
+"#""Prosecutor.""",,"#""อัยการสูงสุด"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Hmm... """,,"#""ฮืมม... """
+"#""It seems rather cut""",,"#""มันก็ฟังดู"""
+[NewLine();],,[NewLine();]
+"#""and dry, doesn't it?""",,"#""ง่ายๆ ไม่ซับซ้อนอะไร ว่าไหม?"""
+[ReadKey();],,[ReadKey();]
+"#""Well, Mr. Wright?""",,"#""เอาล่ะ คุณ<ไรท์>?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Uh...""",,"#""เอ่อ..."""
+[Wait(20);],,[Wait(20);]
+"#"" """,,"#"" """
+"#""I can't agree on""",,"#""จะว่าตามนั้นเลย"""
+[NewLine();],,[NewLine();]
+"#""principle, Your Honor.""",,"#""มันไม่ได้ครับ ท่านผู้พิพากษา"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""It seems that some poor""",,"#""ดูเหมือนว่าจะมีพวกขี้แพ้"""
+[NewLine();],,[NewLine();]
+"#""losers are unwilling to""",,"#""น่าสงสาร ที่ไม่คิดจะ"""
+[NewLine();],,[NewLine();]
+"#""accept the truth, Your Honor.""",,"#""ยอมรับความจริงนะคะท่าน"""
+[ReadKey();],,[ReadKey();]
+"#""Shall I proceed to crush what""",,"#""จะให้ฉันเริ่มขจัดความหวัง"""
+[NewLine();],,[NewLine();]
+"#""little hope they have""",,"#""เล็กๆ น้อยๆ"""
+[NewLine();],,[NewLine();]
+"#""remaining?""",,"#""ที่เขามีเลยไหมคะ?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""If you can... """,,"#""ถ้าทำได้..."""
+[Wait(30);],,[Wait(30);]
+"#""then""",,"#"""""
+[NewLine();],,[NewLine();]
+"#""give them your worst,""",,"#""ก็เอาให้อยู่หมัดเลย"""
+[NewLine();],,[NewLine();]
+"#""Ms. Starr!""",,"#""คุณ<สตาร์>!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(Wait, are they talking """,,"#""(เดี๋ยว นี่พวกเขากำลังพูดถึง"""
+[NewLine();],,[NewLine();]
+"#""about me...!?)""",,"#""ฉันเหรอ...!?)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Clear Speaker],,[Clear Speaker]
+[SetTextColor(Red);],,[SetTextColor(Red);]
+[NewLine();],,[NewLine();]
+"#""-- Witness's Account --""",,"#""-- คำเบิกความของพยาน --"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Wait(100);],,[Wait(100);]
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""Somehow, I always knew""",,"#""ไม่รู้ทำไม แต่ฉันรู้"""
+[NewLine();],,[NewLine();]
+"#""a day like this would come.""",,"#""ว่าวันแบบนี้ต้องมาถึง"""
+[ReadKey();],,[ReadKey();]
+"#""I was on my way to deliver""",,"#""ฉันอยู่ระหว่างทางไปส่ง"""
+[NewLine();],,[NewLine();]
+"#""a lunchbox to my boyfriend...""",,"#""ข้าวเที่ยงให้แฟน..."""
+[ReadKey();],,[ReadKey();]
+"#""When I sensed something...""",,"#""ฉันรู้สึกได้ถึงบางอย่าง..."""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""Perhaps it was my finely-honed""",,"#""อาจจะเป็นสัญชาตญาณ"""
+[NewLine();],,[NewLine();]
+"#""detective's intuition at work.""",,"#""สายสืบในใจฉันก็ได้"""
+[ReadKey();],,[ReadKey();]
+[ClearText();],,[ClearText();]
+"#""Through the wire fence,""",,"#""ผ่านรั้วนั่น"""
+[NewLine();],,[NewLine();]
+"#""I saw the chief prosecutor""",,"#""ฉันเห็นอัยการสูงสุด"""
+[NewLine();],,[NewLine();]
+"#""standing next to a garish car.""",,"#""ยืนอยู่ใกล้กับรถสีฉูดฉาด"""
+[ReadKey();],,[ReadKey();]
+"#""The chief prosecutor was """,,"#""อัยการสูงสุดกำลังถือมีด"""
+[NewLine();],,[NewLine();]
+"#""holding a knife in her""",,"#""ด้วยมือขวา..."""
+[NewLine();],,[NewLine();]
+"#""right hand...""",,"#"""""
+[ReadKey();],,[ReadKey();]
+"#""Then, she thrust the pointy""",,"#""แล้วเธอก็เอาปลายมีดแหลมๆ"""
+[NewLine();],,[NewLine();]
+"#""tip of the knife into""",,"#""ทิ่มแทงลงไปกลางอก"""
+[NewLine();],,[NewLine();]
+"#""Detective Goodman's chest!""",,"#""ของสายสืบ<กู้ดแมน>!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Judge],,[Judge]
+"#""Hmm...""",,"#""อืมม..."""
+[Wait(20);],,[Wait(20);]
+"#"" Bringing a lunchbox""",,"#"" เอาข้าวเที่ยง"""
+[NewLine();],,[NewLine();]
+"#""to your boyfriend?""",,"#""ให้แฟนงั้นเหรอ?"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""How touching!""",,"#""น่าประทับใจยิ่ง!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""Hmph.""",,"#""ฮึ่ม"""
+[Wait(20);],,[Wait(20);]
+"#"" As you can see...""",,"#"" ตามที่ท่านเห็นครับ..."""
+[NewLine();],,[NewLine();]
+"#""There is no room for doubt.""",,"#""ไม่ได้มีอะไรน่าสงสัย"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""The key ""point"" of your""",,"#""ประเด็น ""หลัก"" ของ"""
+[NewLine();],,[NewLine();]
+"#""testimony seems to be nothing""",,"#""คำเบิกความคุณก็เป็นอะไรไม่ได้"""
+[NewLine();],,[NewLine();]
+"#""other than...""",,"#""นอกเสียจาก..."""
+[ReadKey();],,[ReadKey();]
+"#""the point of the knife which""",,"#""ประเด็นที่คุณเห็นมีดถูกแทง"""
+[NewLine();],,[NewLine();]
+"#""you saw being stabbed into""",,"#""เข้าไปในตัวของสายสืบ<กู้ดแมน>!"""
+[NewLine();],,[NewLine();]
+"#""Detective Goodman!""",,"#"""""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""So...""",,"#""แล้ว..."""
+[Wait(20);],,[Wait(20);]
+"#"" how does it feel""",,"#"" รู้สึกไงล่ะ"""
+[NewLine();],,[NewLine();]
+"#""to be so utterly crushed?""",,"#""ที่โดนอัดซะเละแบบนี้?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""I...""",,"#""ผ..."""
+[Wait(20);],,[Wait(20);]
+"#"" I'm still thinking""",,"#"" ผมกำลังคิด"""
+[NewLine();],,[NewLine();]
+"#""about that.""",,"#""เรื่องนั้นอยู่"""
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""I-""",,"#""ม-"""
+[Wait(8);],,[Wait(8);]
+"#""it's merely a flesh""",,"#""มันแค่มดกัดน่า"""
+[NewLine();],,[NewLine();]
+"#""wound,""",,"#"""""
+[Wait(10);],,[Wait(10);]
+"#"" Mr. Wright!""",,"#""คุณ<ไรท์>!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Very well, Mr. Wright.""",,"#""ถ้าอย่างนั้น คุณ<ไรท์>"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""You may cross-examine""",,"#""เชิญทำการถามค้าน"""
+[NewLine();],,[NewLine();]
+"#""the witness.""",,"#""พยานได้"""
+[Op_2D();],,[Op_2D();]
+,,
+[Clear Speaker],,[Clear Speaker]
+[SetTextColor(Red);],,[SetTextColor(Red);]
+[NewLine();],,[NewLine();]
+"#""-- Witness's Account --""",,"#""-- คำเบิกความของพยาน --"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Wait(100);],,[Wait(100);]
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+[SetTextColor(Green);],,[SetTextColor(Green);]
+"#""Somehow, I always knew""",,"#""ไม่รู้ทำไม แต่ฉันรู้"""
+[NewLine();],,[NewLine();]
+"#""a day like this would come.""",,"#""ว่าวันแบบนี้ต้องมาถึง"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_15();],,[Op_15();]
+,,
+[Starr],,[Starr]
+[SetTextColor(Green);],,[SetTextColor(Green);]
+"#""I was on my way to deliver""",,"#""ฉันอยู่ระหว่างทางไปส่ง"""
+[NewLine();],,[NewLine();]
+"#""a lunchbox to my boyfriend...""",,"#""ข้าวเที่ยงให้แฟน..."""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_15();],,[Op_15();]
+,,
+[Starr],,[Starr]
+[SetTextColor(Green);],,[SetTextColor(Green);]
+"#""When I sensed something...""",,"#""ฉันรู้สึกได้ถึงบางอย่าง..."""
+[NewLine();],,[NewLine();]
+"#""Perhaps it was my finely-honed""",,"#""อาจจะเป็นสัญชาตญาณ"""
+[NewLine();],,[NewLine();]
+"#""detective's intuition at work.""",,"#""สายสืบในใจฉันก็ได้"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_15();],,[Op_15();]
+,,
+[Starr],,[Starr]
+[SetTextColor(Green);],,[SetTextColor(Green);]
+"#""Through the wire fence,""",,"#""ผ่านรั้วนั่น"""
+[NewLine();],,[NewLine();]
+"#""I saw the chief prosecutor""",,"#""ฉันเห็นอัยการสูงสุด"""
+[NewLine();],,[NewLine();]
+"#""standing next to a garish car.""",,"#""ยืนอยู่ใกล้กับรถสีฉูดฉาด"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_15();],,[Op_15();]
+,,
+[Starr],,[Starr]
+[SetTextColor(Green);],,[SetTextColor(Green);]
+"#""The chief prosecutor was """,,"#""อัยการสูงสุดกำลังถือมีด"""
+[NewLine();],,[NewLine();]
+"#""holding a knife in her""",,"#""ด้วยมือขวา..."""
+[NewLine();],,[NewLine();]
+"#""right hand...""",,"#"""""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_15();],,[Op_15();]
+,,
+[Starr],,[Starr]
+[SetTextColor(Green);],,[SetTextColor(Green);]
+"#""Then, she thrust the pointy""",,"#""แล้วเธอก็เอาปลายมีดแหลมๆ"""
+[NewLine();],,[NewLine();]
+"#""tip of the knife into""",,"#""ทิ่มแทงลงไปกลางอก"""
+[NewLine();],,[NewLine();]
+"#""Detective Goodman's chest!""",,"#""ของสายสืบ<กู้ดแมน>!"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_15();],,[Op_15();]
+[NewLine();],,[NewLine();]
+,,
+[Starr],,[Starr]
+[SetTextColor(Green);],,[SetTextColor(Green);]
+"#""The murder was planned!""",,"#""เป็นการฆาตกรรมโดยไตร่ตรองไว้ก่อน!"""
+[NewLine();],,[NewLine();]
+"#""The rubber gloves prove it!""",,"#""ซึ่งพิสูจน์ได้ด้วยถุงมือยาง!"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_15();],,[Op_15();]
+,,
+[Ema],,[Ema]
+"#""I-""",,"#""ม-"""
+[Wait(8);],,[Wait(8);]
+"#""it's only a flesh wound,""",,"#""มันแค่มดกัดน่า"""
+[NewLine();],,[NewLine();]
+"#""Mr. Wright!""",,"#""คุณ<ไรท์>!"""
+[Wait(20);],,[Wait(20);]
+"#"" We can make it!""",,"#"" พวกเราทำได้!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""You said that before.""",,"#""พูดไปแล้วนี่"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""Anything else?""",,"#""มีอะไรเสริมไหม?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""Scientifically speaking...""",,"#""ในทางวิทยาศาสตร์แล้ว..."""
+[NewLine();],,[NewLine();]
+"#""Ms. Starr's testimony...""",,"#""คำเบิกความของคุณ<สตาร์>..."""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""is flawless.""",,"#""มันไร้ที่ติเลย"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(Sounds pretty fatal to me.)""",,"#""(ไม่ใช่มดกัดแล้วแบบนี้)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""Wh-""",,"#""พ-"""
+[Wait(8);],,[Wait(8);]
+"#""what do we do!?""",,"#""พวกเราทำไงกันดี!?"""
+[Wait(20);],,[Wait(20);]
+"#"" Is this it?""",,"#"" จบแค่นี้เหรอ?"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""Is my sister guilty!?""",,"#""พี่หนูผิดจริงๆ เหรอ!?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Let's just keep our heads""",,"#""ทำใจให้เย็นๆ ก่อน"""
+[NewLine();],,[NewLine();]
+"#""cool and press the witness""",,"#""แล้วลองถามจี้พยานดู"""
+[NewLine();],,[NewLine();]
+"#""a bit, shall we?""",,"#""เอาไหม?"""
+[Op_2D();],,[Op_2D();]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(For some reason, having her""",,"#""(ไม่รู้ทำไม มีเธอมาพะวงใกล้ๆ"""
+[NewLine();],,[NewLine();]
+"#""panicking next to me makes""",,"#""กลับทำให้ฉันใจเย็นลงซะงั้น...)"""
+[NewLine();],,[NewLine();]
+"#""me calmer...)""",,"#"""""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""D-""",,"#""ย-"""
+[Wait(8);],,[Wait(8);]
+"#""don't smile like that!""",,"#""อย่ายิ้มแบบนั้นสิคะ!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""How did you know!?""",,"#""รู้ได้ยังไงครับ!?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""I respect the prosecutors'""",,"#""ฉันนับถือความเกลียดชังของอัยการ"""
+[NewLine();],,[NewLine();]
+"#""basic abhorrence of crime.""",,"#""ที่มีต่ออาชญากรรมนะ"""
+[ReadKey();],,[ReadKey();]
+"#""Yet their methods are""",,"#""ถึงแม้วิธีของพวกเขา"""
+[NewLine();],,[NewLine();]
+"#""ugly and twisted.""",,"#""จะน่ารังเกียจและบิดเบี้ยวก็เถอะ"""
+[ReadKey();],,[ReadKey();]
+"#""Twisted methods will """,,"#""วิธีที่บิดเบี้ยวมักจะนำไปสู่ """
+[NewLine();],,[NewLine();]
+"#""always lead to tragedy.""",,"#""โศกนาฏกรรมเสมอ"""
+[Op_2D();],,[Op_2D();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""The lunchlady's uninformed""",,"#""ผมขอน้อมรับความเห็นไร้สาระ"""
+[NewLine();],,[NewLine();]
+"#""opinion is duly noted.""",,"#""ของสาวขายข้าวเที่ยวไว้แล้วกัน"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""Given that they are used to""",,"#""อย่างที่รู้กันว่าพวกเขา"""
+[NewLine();],,[NewLine();]
+"#""erasing inconvenient evidence""",,"#""ย่อมจัดการกับหลักฐานที่ขวางทาง"""
+[NewLine();],,[NewLine();]
+"#""at their whim...""",,"#""ตามอำเภอใจ..."""
+[ReadKey();],,[ReadKey();]
+"#""Killing off a detective that""",,"#""จัดการฆ่าสายสืบ"""
+[NewLine();],,[NewLine();]
+"#""knew too much is merely an""",,"#""ที่รู้มากไป"""
+[NewLine();],,[NewLine();]
+"#""extension of that.""",,"#""ก็ไม่ต่างกัน"""
+[Op_2D();],,[Op_2D();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""...""",,"#""..."""
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""Ms. Starr...""",,"#""คุณ<สตาร์>..."""
+[Wait(20);],,[Wait(20);]
+"#"" do you have""",,"#"" คุณมีความแค้นส่วนตัว"""
+[NewLine();],,[NewLine();]
+"#""something personal against""",,"#""กับอัยการเหรอคะ?"""
+[NewLine();],,[NewLine();]
+"#""prosecutors?""",,"#"""""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""I felt that I had found my""",,"#""ฉันรู้สึกได้ว่าฉันได้เจองานในฝัน"""
+[NewLine();],,[NewLine();]
+"#""dream job when I became""",,"#""ตอนที่ฉันได้มาเป็น"""
+[NewLine();],,[NewLine();]
+"#""an investigator...""",,"#""สายสืบ..."""
+[ReadKey();],,[ReadKey();]
+"#""And if I hadn't been laid off""",,"#""และถ้าฉันไม่โดนเลย์ออฟ"""
+[NewLine();],,[NewLine();]
+"#""by those prosecutors over""",,"#""โดยพวกอัยการตรงนั้นล่ะก็"""
+[NewLine();],,[NewLine();]
+"#""there, I'd still be one.""",,"#""ฉันคงยังได้ทำงานนั้นอยู่"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Laid off...?""",,"#""เลย์ออฟเหรอ...?"""
+[NewLine();],,[NewLine();]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(She was fired...)""",,"#""(เธอโดนไล่ออกสินะ...)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""To me, prosecutors are """,,"#""สำหรับฉัน พวกอัยการ"""
+[NewLine();],,[NewLine();]
+"#""nothing more than worms.""",,"#""ก็ไม่ต่างจากพวกหนอนสกปรก"""
+[ReadKey();],,[ReadKey();]
+"#""That said, I am a pro, as""",,"#""เช่นนั้นแล้ว ฉันคือมืออาชีพ"""
+[NewLine();],,[NewLine();]
+"#""you know.""",,"#""รู้เอาไว้ซะ"""
+[Wait(20);],,[Wait(20);]
+"#"" My testimony is""",,"#"" คำเบิกความของฉัน"""
+[NewLine();],,[NewLine();]
+"#""unbiased...""",,"#""ไม่ลำเอียง..."""
+[Wait(20);],,[Wait(20);]
+"#"" and flawless.""",,"#"" และไร้ที่ติ"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Very well. """,,"#""ถ้างั้นก็"""
+[Wait(40);],,[Wait(40);]
+"#""You may continue,""",,"#"" เชิญพูดต่อได้ครับ"""
+[NewLine();],,[NewLine();]
+"#""Ms. Starr.""",,"#""คุณ<สตาร์>"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""This boyfriend...""",,"#""แฟนคนนั้น..."""
+[Wait(20);],,[Wait(20);]
+"#"" he's""",,"#"" เขาเป็น"""
+[NewLine();],,[NewLine();]
+"#""the detective?""",,"#""สายสืบด้วยเหรอครับ?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""Not that boyfriend.""",,"#""ไม่ใช่แฟนคนนั้น"""
+[Wait(20);],,[Wait(20);]
+"#"" """,,"#"" """
+[NewLine();],,[NewLine();]
+"#""The security guard.""",,"#""คนนี้เป็นยาม"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Th-""",,"#""ฟ-"""
+[Wait(8);],,[Wait(8);]
+"#""""that"" boyfriend?""",,"#""แฟน ""คนนั้น""?"""
+[NewLine();],,[NewLine();]
+"#""You have...""",,"#""นี่คุณมี..."""
+[Wait(20);],,[Wait(20);]
+"#"" several?""",,"#"" หลายคนเหรอ?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""Yes.""",,"#""ใช่"""
+[Wait(20);],,[Wait(20);]
+"#"" """,,"#"" """
+"#""""This"" boyfriend, ""that""""",,"#""แฟน ""คนนั้น"" แฟน ""คนนี้"""""
+[NewLine();],,[NewLine();]
+"#""boyfriend, and ""the other""""",,"#""แล้วก็แฟน ""คนโน้น"" """
+[NewLine();],,[NewLine();]
+"#""boyfriend.""",,"#"""""
+[ReadKey();],,[ReadKey();]
+"#""Care to join?""",,"#""สนใจไหม?"""
+[ReadKey();],,[ReadKey();]
+"#""The ""yet another"" boyfriend""",,"#""ตำแหน่งแฟน ""คนนู้น"" """
+[NewLine();],,[NewLine();]
+"#""position is still open for""",,"#""ยังเปิดรับสมัครอยู่นะ"""
+[NewLine();],,[NewLine();]
+"#""applicants.""",,"#"""""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""...""",,"#""..."""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""I-""",,"#""ผ-"""
+[Wait(8);],,[Wait(8);]
+"#""I'll stick with the""",,"#""ผมขอแค่ข้าวเที่ยง"""
+[NewLine();],,[NewLine();]
+"#""lunches, thanks.""",,"#""ก็พอแล้ว ขอบคุณ"""
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""Note to self:""",,"#""โน้ต:"""
+"#"" the judge had""",,"#"" ผู้พิพากษา"""
+[NewLine();],,[NewLine();]
+"#""to think before replying.""",,"#""แอบลังเลก่อนตอบ"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""The security guard room""",,"#""ห้องยาม"""
+[SetTextColor(White);],,[SetTextColor(White);]
+"#"" is""",,"#""มัน"""
+[NewLine();],,[NewLine();]
+"#""in the lot, in """,,"#""อยู่ในลานจอดรถ"""
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""A Block""",,"#""โซน A"""
+[SetTextColor(White);],,[SetTextColor(White);]
+"#"".""",,"#"""""
+[Op_2D();],,[Op_2D();]
+"#""It's up on """,,"#""อยู่ตรง"""
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""the second level""",,"#""ชั้นสอง"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[NewLine();],,[NewLine();]
+"#""so you can see everything""",,"#""ซึ่งน่าจะเห็นทุกอย่าง"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[NewLine();],,[NewLine();]
+"#""from there.""",,"#""ได้จากบนนั้น"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(That would be the room """,,"#""(นั่นคงจะเป็นห้อง"""
+[NewLine();],,[NewLine();]
+"#""with the """"",,"#""ที่มีป้าย """""
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""SECURITY""",,"#""SECURITY"""
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#"""" sign.)""",,"#"""")"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+"#""Incidentally, did you bring""",,"#""แล้ว นี่คุณขนกล่องข้าวเที่ยง"""
+[NewLine();],,[NewLine();]
+"#""your lunchboxes by car?""",,"#""มาด้วยรถเหรอ?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""Since I'm a visitor now,""",,"#""ตอนนี้ฉันเป็นคนนอกแล้ว"""
+[NewLine();],,[NewLine();]
+"#""I parked in """,,"#""ฉันเลยไปจอดใน"""
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""B Block""",,"#""โซน B"""
+[SetTextColor(White);],,[SetTextColor(White);]
+"#"".""",,"#"""""
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""So...""",,"#""แสดงว่า..."""
+[Wait(20);],,[Wait(20);]
+"#"" she was in """,,"#"" เธออยู่ใน"""
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""B Block""",,"#""โซน B"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[NewLine();],,[NewLine();]
+"#""when she witnessed the crime.""",,"#""ตอนที่เธอเห็นการฆาตกรรมสินะคะ"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""You ""sensed"" something?""",,"#""คุณ ""รู้สึก"" อะไรบางอย่างเหรอ?"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""So, you're saying you had""",,"#""นี่คุณจะบอกว่าคุณ"""
+[NewLine();],,[NewLine();]
+"#""a premonition of the murder?""",,"#""มีนิมิตก่อนเกิดเหตุน่ะ?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""It felt like...""",,"#""มันรู้สึกเหมือนกับว่า..."""
+[Wait(20);],,[Wait(20);]
+"#"" how would""",,"#"""""
+[NewLine();],,[NewLine();]
+"#""you say...""",,"#""จะว่ายังไงดี..."""
+[ReadKey();],,[ReadKey();]
+"#""Oh yes...""",,"#""โอ้ ใช่..."""
+[ReadKey();],,[ReadKey();]
+"#""It was like the feeling you""",,"#""มันเหมือนกับความรู้สึก"""
+[NewLine();],,[NewLine();]
+"#""get when you view a pumpkin""",,"#""ตอนคุณเห็นฟักทองที่เต็มไปด้วย"""
+[NewLine();],,[NewLine();]
+"#""chock full of seeds!""",,"#""เมล็ดนั่นแหละ!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""I have no idea what that""",,"#""ผมไม่รู้เลยว่านั่น"""
+[NewLine();],,[NewLine();]
+"#""means.""",,"#""หมายความว่าอะไร"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Speaking of a ""detective's""",,"#""พูดถึง ""สัญชาตญาณ"""
+[NewLine();],,[NewLine();]
+"#""intuition""...""",,"#""ของสายสืบ"" แล้ว..."""
+[ReadKey();],,[ReadKey();]
+"#""Wasn't the victim, """,,"#""ไม่ใช่ว่าผู้ตาย"""
+[NewLine();],,[NewLine();]
+"#""Mr. Bruce Goodman, also """,,"#""คุณ<บรูซ กู้ดแมน>"""
+[NewLine();],,[NewLine();]
+"#""a detective?""",,"#""ก็เป็นสายสืบเหรอ?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""Yes, well, he was like a """,,"#""ใช่ แล้วก็นะ"""
+[NewLine();],,[NewLine();]
+"#""young cheese.""",,"#""เขาดูยังกับชีสอายุน้อย"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""A...""",,"#""ช..."""
+[Wait(20);],,[Wait(20);]
+"#"" young cheese?""",,"#"" ชีสอายุน้อย?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""A pale white cheese, not yet""",,"#""ชีสสีขาวซีด"""
+[NewLine();],,[NewLine();]
+"#""tangy with experience on""",,"#""ปราศจากกลิ่นอายของ"""
+[NewLine();],,[NewLine();]
+"#""the streets.""",,"#""ประสบการณ์ภาคสนาม"""
+[Wait(20);],,[Wait(20);]
+"#"" A greenhorn.""",,"#"" พวกมือใหม่น่ะ"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Hmm... """,,"#""ฮืมม... """
+[Wait(30);],,[Wait(30);]
+"#""then I must be hard,""",,"#""ถ้างั้นผมคงจะเป็นชีสสีเหลืองอร่าม"""
+[NewLine();],,[NewLine();]
+"#""yellowed, and sharp as a tack.""",,"#""ที่เต็มไปด้วยไหวพริบสินะ"""
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""Yeah, with the odor of an""",,"#""ถูกต้อง พร้อมด้วยกลิ่นชีสเก่าๆ"""
+[NewLine();],,[NewLine();]
+"#""old cheese to match.""",,"#""ล่ะใช่เลย"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""In any case, there, in the""",,"#""ยังไงซะ ที่นั่น ลานจอดรถน่ะ"""
+[NewLine();],,[NewLine();]
+"#""lot, I felt something stirring""",,"#""ฉันรู้สึกตะหงิดใจ"""
+[NewLine();],,[NewLine();]
+"#""in the back of my mind...""",,"#""อะไรแปลกๆ..."""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""By ""garish car,"" you mean...""",,"#""""รถสีฉูดฉาด"" ที่ว่า คุณหมายถึง..."""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""Mr. Edgeworth's car, yes.""",,"#""ใช่ รถคุณ<เอ็จเวิร์ธ>"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""M-""",,"#""ข-"""
+[Wait(8);],,[Wait(8);]
+"#""Mr. Edgeworth's!?""",,"#""ของคุณ<เอ็จเวิร์ธ>เหรอ!?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""Incidentally, the knife with""",,"#""ในขณะเดียวกัน"""
+[NewLine();],,[NewLine();]
+"#""which the victim was stabbed""",,"#""มีดที่ใช้แทงผู้ตายน่ะ"""
+[NewLine();],,[NewLine();]
+"#""was also Mr. Edgeworth's.""",,"#""ก็เป็นของคุณ<เอ็จเวิร์ธ>"""
+[ReadKey();],,[ReadKey();]
+"#""Wasn't it?""",,"#""ไม่ใช่เหรอ?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""...""",,"#""..."""
+[Wait(40);],,[Wait(40);]
+[NewLine();],,[NewLine();]
+"#""Indeed, it was.""",,"#""ใช่ครับ เป็นเรื่องจริง"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""H""",,"#""ฮื้มม"""
+"#""mm! """,,"#""มม! """
+[Wait(20);],,[Wait(20);]
+"#""What an odd case this is.""",,"#""นี่มันคดีที่แปลกจริงๆ"""
+[ReadKey();],,[ReadKey();]
+"#""And the person you saw...""",,"#""แล้วคนที่คุณเจอ..."""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""you are sure it was the""",,"#""แน่ใจเหรอ"""
+[NewLine();],,[NewLine();]
+"#""defendant?""",,"#""ว่าเป็นจำเลยน่ะ?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""I saw her from no further""",,"#""ฉันเห็นเธอจากระยะ"""
+[NewLine();],,[NewLine();]
+"#""than thirty feet away.""",,"#""เพียงไม่เกิน 30 ฟุตเท่านั้น"""
+[ReadKey();],,[ReadKey();]
+"#""I am certain it was her.""",,"#""ฉันแน่ใจว่านั่นเป็นเธอ"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(If she's telling the""",,"#""(ถ้าเธอพูดความจริงล่ะก็"""
+[NewLine();],,[NewLine();]
+"#""truth, we're doomed!)""",,"#""เราจบเห่แน่!)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""Let's just do what we can!""",,"#""ทำสิ่งที่เราทำได้เถอะค่ะ!"""
+[NewLine();],,[NewLine();]
+"#""Even if we don't have any""",,"#""ถึงแม้พวกเราจะไม่มีหลักฐาน"""
+[NewLine();],,[NewLine();]
+"#""proof, we can always nitpick!""",,"#""แต่พวกเราคอยจับจุดโป๊ะได้นะ!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""We're dealing with Edgeworth""",,"#""พวกเรากำลังประลองกับ<เอ็จเวิร์ธ>"""
+[NewLine();],,[NewLine();]
+"#""here...""",,"#""อยู่นะ..."""
+[Wait(20);],,[Wait(20);]
+"#"" I need something more""",,"#"" ฉันต้องการอะไรที่มัน"""
+[NewLine();],,[NewLine();]
+"#""substantial than that...""",,"#""จับต้องได้มากกว่านั้น..."""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Hmm... """,,"#""อืมม... """
+[Wait(20);],,[Wait(20);]
+"#""Can you tell us what""",,"#""คุณบอกพวกเราได้ไหม"""
+[NewLine();],,[NewLine();]
+"#""the suspect was doing when """,,"#""ว่าตอนนั้นคุณเห็นจำเลย """
+[NewLine();],,[NewLine();]
+"#""you saw her?""",,"#""กำลังทำอะไรอยู่?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Witness!""",,"#""พยาน!"""
+[Wait(20);],,[Wait(20);]
+"#"" In your testimony,""",,"#"" ในคำเบิกความของคุณ"""
+[NewLine();],,[NewLine();]
+"#""you clearly stated the""",,"#""คุณพูดชัดออกมา"""
+[NewLine();],,[NewLine();]
+"#""following:""",,"#""ตามนี้เลยนะครับ:"""
+[ReadKey();],,[ReadKey();]
+"#""Prosecutors are nothing""",,"#""พวกอัยการ"""
+[NewLine();],,[NewLine();]
+"#""more than worms.""",,"#""ก็ไม่ต่างกับพวกหนอนสกปรก"""
+[NewLine();],,[NewLine();]
+"#""Ergo!""",,"#""ฉะนั้น!"""
+[ReadKey();],,[ReadKey();]
+"#""You are a biased witness!""",,"#""คุณมันลำเอียง!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""You might want to keep those""",,"#""นายน่าจะเก็บความเห็นงี่เง่านั่น"""
+[NewLine();],,[NewLine();]
+"#""silly opinions to YOURSELF""",,"#""เอาไว้บอกตัวเองในอนาคตนะ"""
+[NewLine();],,[NewLine();]
+"#""in the future, rookie.""",,"#""ไอ้มือใหม่"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Huh?""",,"#""หือ?"""
+[Wait(20);],,[Wait(20);]
+"#"" Rookie?""",,"#"" มือใหม่?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""Unless you're willing to""",,"#""ยกเว้นนายจะยอมเสี่ยง"""
+[NewLine();],,[NewLine();]
+"#""risk the consequences of""",,"#""ยอมรับสิ่งที่จะตามมา"""
+[NewLine();],,[NewLine();]
+"#""doubting me?""",,"#""จากการสงสัยฉันล่ะนะ?"""
+[Op_2D();],,[Op_2D();]
+"#""I'll fry you like a fritter!""",,"#""แม่จะทอดให้เป็นกล้วยทอดเลย!"""
+[NewLine();],,[NewLine();]
+"#""Crispy""",,"#""กรอบ"""
+"#"" on the """,,"#""ข้าง"""
+"#""outside...""",,"#""นอก..."""
+[Wait(10);],,[Wait(10);]
+[NewLine();],,[NewLine();]
+"#""chewy""",,"#""เหนียว"""
+"#"" on the""",,"#""นุ่ม"""
+"#"" inside!!!""",,"#""ข้างใน!!!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""That... """,,"#""นั่น... """
+[Wait(20);],,[Wait(20);]
+"#""That was inspiring!""",,"#""นั่นช่างเร้าใจซะจริง!"""
+[Wait(20);],,[Wait(20);]
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""I believe I've heard that""",,"#""หนูว่าหนูเคยได้ยิน"""
+[NewLine();],,[NewLine();]
+"#""tag line elsewhere...""",,"#""คำพูดนี้มาจากไหนนะ..."""
+[Wait(20);],,[Wait(20);]
+"#"" you""",,"#"""""
+[NewLine();],,[NewLine();]
+"#""could cry plagiarism?""",,"#""คุณอ้างเรื่องละเมิดลิขสิทธิ์ได้ไหมคะ?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""I may be relegated to the""",,"#""ถึงฉันจะถูกผลักไสให้รับบท"""
+[NewLine();],,[NewLine();]
+"#""lowly post of lunchlady...""",,"#""สาวขายข้าวเที่ยงผู้ต่ำต้อย..."""
+[NewLine();],,[NewLine();]
+"#""But my""",,"#""แต่สัญชาตญาณ"""
+"#"" instincts are""",,"#""ของฉันยัง"""
+"#"" honed!""",,"#""เฉียบคม!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Judge],,[Judge]
+"#""A-""",,"#""ร-"""
+[Wait(8);],,[Wait(8);]
+"#""a photograph!""",,"#""รูปถ่าย!"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""You took this!?""",,"#""คุณถ่ายมาเหรอครับ!?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""The moment I witnessed the""",,"#""ช่วงที่สายตาฉันเห็นอาชญากรรม"""
+[NewLine();],,[NewLine();]
+"#""crime, """,,"#""ตัวฉันก็ตอบสนอง"""
+"#""my reflexes took over""",,"#""ต่อมันทันที"""
+[NewLine();],,[NewLine();]
+"#""and snap!""",,"#""แล้วก็แชะ!"""
+[Wait(20);],,[Wait(20);]
+"#"" I took a picture.""",,"#"" ฉันก็ถ่ายรูป"""
+[ReadKey();],,[ReadKey();]
+"#""In fact...""",,"#""จริงๆ แล้ว..."""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+[Wait(15);],,[Wait(15);]
+[Wait(36);],,[Wait(36);]
+[Wait(25);],,[Wait(25);]
+"#""One of my lunchboxes is""",,"#""หนึ่งในกล่องข้าวของฉัน"""
+[NewLine();],,[NewLine();]
+"#""rigged with a camera.""",,"#""มีกล้องซ่อนอยู่"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(I suppose that's more""",,"#""(ฉันว่าแบบนั้นคงน่าตื่นเต้น"""
+[NewLine();],,[NewLine();]
+"#""exciting than just hanging""",,"#""มากกว่าเอามันห้อยคอ"""
+[NewLine();],,[NewLine();]
+"#""it around your neck.)""",,"#""ไว้เฉยๆ ใช่ไหม)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""Witness!""",,"#""พยาน!"""
+[Wait(20);],,[Wait(20);]
+"#"" Why am I only seeing""",,"#"" ทำไมผมเพิ่งมาได้เห็นรูปนี้?"""
+[NewLine();],,[NewLine();]
+"#""this photograph just now?""",,"#"""""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""You think I'd show it to you,""",,"#""คิดเหรอว่าฉันจะโชว์ให้คุณดู"""
+[NewLine();],,[NewLine();]
+"#""a prosecutor? """,,"#""คุณอัยการ? """
+[Wait(20);],,[Wait(20);]
+"#""Think again.""",,"#""คิดผิดคิดใหม่นะ"""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""...!""",,"#""...!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""My boyfriend works in the""",,"#""แฟนของฉันทำงานอยู่ใน"""
+[NewLine();],,[NewLine();]
+"#""photography division of""",,"#""หน่วยเก็บภาพ"""
+[NewLine();],,[NewLine();]
+"#""Criminal Affairs.""",,"#""ในกองคดีอาญา"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Well... """,,"#""งั้นสินะ... """
+[Wait(20);],,[Wait(20);]
+"#""This is most certainly""",,"#""งั้นนี่ต้องเป็น"""
+[NewLine();],,[NewLine();]
+"#""the defendant!""",,"#""จำเลยแน่นอน!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Clear Speaker],,[Clear Speaker]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""Crime Photo added to""",,"#""ภาพถ่ายอาชญากรรม"""
+[NewLine();],,[NewLine();]
+"#""the Court Record.""",,"#""ถูกเพิ่มลงไปในบันทึกคดี"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(Uh oh, that is unmistakably""",,"#""(โอ๊ะโอ ดูยังไงนั่นก็"""
+[NewLine();],,[NewLine();]
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""Lana Skye""",,"#""<ลาน่า สกาย>"""
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""!)""",,"#""!)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""So, what was the defendant""",,"#""ถ้างั้น ตอนนั้นจำเลย"""
+[NewLine();],,[NewLine();]
+"#""doing at the time?""",,"#""กำลังทำอะไรครับ?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Tell me more about this""",,"#""บอกผมทีเรื่องมีด"""
+[NewLine();],,[NewLine();]
+"#""knife that the suspect""",,"#""ที่ผู้ต้องสงสัย"""
+[NewLine();],,[NewLine();]
+"#""was carrying.""",,"#""กำลังถืออยู่ครับ"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""Well, I'd say the blade was""",,"#""ก็ ฉันว่ามันน่าจะยาว"""
+[NewLine();],,[NewLine();]
+"#""about 4 inches long.""",,"#""ประมาณ 4 นิ้ว"""
+[ReadKey();],,[ReadKey();]
+"#""Is that right, Mr. Edgeworth?""",,"#""ถูกต้องไหม คุณ<เอ็จเวิร์ธ>?"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""It is your knife, after all.""",,"#""ยังไงซะมันก็เป็นมีดของคุณ"""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""Er...""",,"#""เอ่อ.."""
+[Wait(20);],,[Wait(20);]
+"#"" Ahem,""",,"#"" อะแฮ่ม"""
+"#"" yes, that's""",,"#"" ใช่"""
+[NewLine();],,[NewLine();]
+"#""about right.""",,"#""มันก็ใช่"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""Prosecutors are, by nature,""",,"#""พวกอัยการน่ะ ตามธรรมชาติแล้ว"""
+[NewLine();],,[NewLine();]
+"#""well-versed in the location""",,"#""มักจะรอบรู้เกี่ยวกับตำแหน่ง"""
+[NewLine();],,[NewLine();]
+"#""of a man's vital organs.""",,"#""อวัยวะสำคัญของมนุษย์"""
+[ReadKey();],,[ReadKey();]
+"#""I'm sure it was easier than""",,"#""ฉันว่ามันยังง่ายกว่าการต้มไข่"""
+[NewLine();],,[NewLine();]
+"#""boiling an egg for my Egg""",,"#""เพื่อมาทำเซ็ตสลัดไข่ต้มสุดพิเศษ"""
+[NewLine();],,[NewLine();]
+"#""Salad Surprise Set.""",,"#""ของฉันซะอีก"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Y-""",,"#""ค-"""
+[Wait(8);],,[Wait(8);]
+"#""you can't testify as to""",,"#""คุณจะมาเบิกความถึง"""
+[NewLine();],,[NewLine();]
+"#""her ability to kill an egg!""",,"#""ความสามารถในการฆ่าไข่!"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""I mean,""",,"#""เอ้ย"""
+[Wait(10);],,[Wait(10);]
+"#"" a person!""",,"#"" คน แบบนี้ไม่ได้!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""Hmm? """,,"#""หืม? """
+[Wait(20);],,[Wait(20);]
+"#""Perhaps a Chicken Salad""",,"#""สงสัยเซ็ตสลัดไก่ฉีก"""
+[NewLine();],,[NewLine();]
+"#""Set would have been a better""",,"#""คงจะเป็นคำเปรียบเปรยที่ดีกว่า"""
+[NewLine();],,[NewLine();]
+"#""metaphor?""",,"#""ล่ะมั้งเนี่ย?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""So, the defendant was holding""",,"#""สรุป จำเลยกำลังถือมีดอยู่"""
+[NewLine();],,[NewLine();]
+"#""a knife. """,,"#"""""
+[Wait(20);],,[Wait(20);]
+"#""What then?""",,"#""แล้วไงต่อครับ?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Tell the court why you didn't""",,"#""บอกศาลทีครับว่าทำไม"""
+[NewLine();],,[NewLine();]
+"#""try to stop this crime!""",,"#""คุณถึงไม่พยายามหยุดเหตุการณ์นั้น!"""
+[ReadKey();],,[ReadKey();]
+"#""You did see her raise""",,"#""คุณไม่ได้เห็นตอนเธอยกมีด"""
+[NewLine();],,[NewLine();]
+"#""the knife to strike, no?""",,"#""ขึ้นมาแทง ใช่ไหม?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Hmm...""",,"#""อืม..."""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""The defense has a point.""",,"#""ฝ่ายจำเลยมีเหตุผล"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""Unfortunately, by the time""",,"#""น่าเสียดายจริงๆ ในตอนที่ฉัน"""
+[NewLine();],,[NewLine();]
+"#""I realized what was going""",,"#""รู้ว่าเกิดอะไรขึ้น"""
+[NewLine();],,[NewLine();]
+"#""on, it was already too late.""",,"#""มันก็สายเกินไปแล้ว"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Too late...?""",,"#""สายไปแล้วเหรอ...?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""Yes...""",,"#""ใช่..."""
+[Wait(20);],,[Wait(20);]
+"#"" the next moment...""",,"#"" เพราะหลังจากนั้น..."""
+[NewLine();],,[NewLine();]
+"#""The chief""",,"#""อัยการสูงสุด"""
+"#"" prosecutor brought""",,"#""ก็แทงอาวุธนั่น"""
+[NewLine();],,[NewLine();]
+"#""down the murder weapon!""",,"#""เข้าไปแล้ว!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""I...""",,"#""ข..."""
+[Wait(20);],,[Wait(20);]
+"#"" I see.""",,"#"" เข้าใจแล้ว"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""What if she was just in""",,"#""แล้วถ้าเกิดเธอมีนิสัย"""
+[NewLine();],,[NewLine();]
+"#""the habit of wearing gloves?""",,"#""ที่ชอบใส่ถุงมือล่ะ?"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""Like, driving gloves?""",,"#""แบบถุงมือขับรถ?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""The gloves were admitted as""",,"#""ถุงมือพวกนั้นถูกยึดไว้เป็นหลักฐาน"""
+[NewLine();],,[NewLine();]
+"#""evidence when the defendant""",,"#""ตอนที่จำเลยถูกควบคุมตัว!"""
+[NewLine();],,[NewLine();]
+"#""was arrested!""",,"#"""""
+[ReadKey();],,[ReadKey();]
+"#""They were rubber gloves, of""",,"#""พวกนั้นมันเป็นถุงมือยาง"""
+[NewLine();],,[NewLine();]
+"#""the kind used for autopsies!""",,"#""ชนิดเดียวกับที่ใช้ชันสูตรศพ!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""In other words, when the""",,"#""หรืออีกนัยนึง"""
+[NewLine();],,[NewLine();]
+"#""chief prosecutor came to the""",,"#""ตอนที่อัยการสูงสุด"""
+[NewLine();],,[NewLine();]
+"#""crime scene...""",,"#""มาที่สถานที่เกิดเหตุ..."""
+[ReadKey();],,[ReadKey();]
+"#""She came to do murder!""",,"#""เธอจงใจมาฆ่าคน!"""
+[NewLine();],,[NewLine();]
+"#""It's the only possible """,,"#""นี่เป็นข้อสรุปเดียว """
+[NewLine();],,[NewLine();]
+"#""conclusion one can make.""",,"#""ที่เป็นไปได้"""
+[ReadKey();],,[ReadKey();]
+"#""Everything was pla""",,"#""ทุกอย่างถูก"""
+"#""nned, it""",,"#""วางแผนไว้แล้ว"""
+[NewLine();],,[NewLine();]
+"#""was a prem""",,"#""มันเป็นการฆาตกรรม"""
+"#""editated crime!""",,"#""โดยไตร่ตรองไว้ก่อน!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""A""",,"#""อ้"""
+"#""rr""",,"#""าก"""
+"#""rr""",,"#""กก"""
+"#""gh!""",,"#""กก!"""
+[Wait(50);],,[Wait(50);]
+[Op_2D();],,[Op_2D();]
+,,
+[Judge],,[Judge]
+"#""Impressive!""",,"#""สุดยอดมาก!"""
+[Wait(20);],,[Wait(20);]
+"#"" I'm sorry they""",,"#"" ผมรู้สึกเสียดายจริงๆ"""
+[NewLine();],,[NewLine();]
+"#""took you off the force,""",,"#""ที่พวกเขาไล่คุณออกจากกรม"""
+[NewLine();],,[NewLine();]
+"#""Ms. Starr!""",,"#""คุณ<สตาร์>!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(This is bad...)""",,"#""(แย่ล่ะสิ...)"""
+[ReadKey();],,[ReadKey();]
+"#""(She's got them thinking""",,"#""(เธอทำให้พวกเขา"""
+[NewLine();],,[NewLine();]
+"#""this was """,,"#""คิดว่า """
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""all planned""",,"#""ทุกอย่างถูกวางแผนไว้แล้ว"""
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""...)""",,"#""...)"""
+[ReadKey();],,[ReadKey();]
+"#""(If she can prove this claim,""",,"#""(ถ้าเธอพิสูจน์เรื่องนี้ได้"""
+[NewLine();],,[NewLine();]
+"#""the trial's already over!)""",,"#""การพิจารณาคดีจบเห่แน่!)"""
+[Op_2D();],,[Op_2D();]
+"#""(I've got to think of a way""",,"#""(ฉันต้องคิดหาทางที่จะบอกว่า"""
+[NewLine();],,[NewLine();]
+"#""to show that this wasn't""",,"#""เรื่องนี้มันไม่ใช่"""
+[NewLine();],,[NewLine();]
+"#""premeditated!)""",,"#""การไตร่ตรองไว้ก่อน!)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""And you witnessed this?""",,"#""แล้วคุณเห็นเหรอครับ?"""
+[ReadKey();],,[ReadKey();]
+"#""You saw Ms. Skye stab the""",,"#""คุณเห็นคุณ<สกาย>"""
+[NewLine();],,[NewLine();]
+"#""victim with the knife?""",,"#""แทงผู้เสียชีวิตด้วยมีดเหรอ?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""As I've already said, yes!""",,"#""ก็บอกไปแล้วนะ ใช่ไง!"""
+[NewLine();],,[NewLine();]
+[Wait(15);],,[Wait(15);]
+[Wait(36);],,[Wait(36);]
+[Wait(25);],,[Wait(25);]
+"#""I swear it on my finest""",,"#""ขอสาบานด้วย"""
+[NewLine();],,[NewLine();]
+"#""""Salmon Swirl"" lunch!""",,"#""""เซ็ตแซลมอนวนหลบตบมื้อเที่ยง""!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Hmm!!!""",,"#""ฮื้มมม!!!"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""I'm sure that is a fine lunch!""",,"#""มันต้องเป็นมื้อที่สุขที่สุดแน่ๆ!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""But...""",,"#""แต่..."""
+[Wait(20);],,[Wait(20);]
+"#"" isn't that odd?""",,"#"" มันแปลกๆ นะ?"""
+[NewLine();],,[NewLine();]
+"#""Look at this photograph!""",,"#""ดูรูปนี้สิครับ!"""
+[ReadKey();],,[ReadKey();]
+"#""This is the photograph""",,"#""นี่คือรูปที่คุณถ่าย"""
+[NewLine();],,[NewLine();]
+"#""you took of the very moment""",,"#""ในขณะตอนที่เกิดเหตุ"""
+[NewLine();],,[NewLine();]
+"#""of the crime, is it not?""",,"#""ใช่หรือไม่ครับ?"""
+[ReadKey();],,[ReadKey();]
+"#""Then why is Ms. Skye """,,"#""แล้วทำไมคุณ<สกาย>"""
+"#""not""",,"#"""""
+[NewLine();],,[NewLine();]
+"#""holding a kn""",,"#""ถึงไม่ได้ถือมีด"""
+"#""ife!?""",,"#""อยู่!?"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""...""",,"#""..."""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""...""",,"#""..."""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""...""",,"#""..."""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""Ahem.""",,"#""อะแฮ่ม"""
+[ReadKey();],,[ReadKey();]
+"#""Mr. Edgeworth, your""",,"#""คุณ<เอ็จเวิร์ธ>"""
+[NewLine();],,[NewLine();]
+"#""thoughts?""",,"#""ขอความเห็นหน่อย?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""Objection.""",,"#""ขอคัดค้าน"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""That had to be the weakest""",,"#""นั่นเป็น ""ขอคัดค้าน"""""
+[NewLine();],,[NewLine();]
+"#""""objection"" ever, Edgeworth.""",,"#""ที่เบาที่สุดเลย <เอ็จเวิร์ธ>"""
+[Op_2D();],,[Op_2D();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""Yet, it was still stronger""",,"#""แต่ยังไงมันก็หนัก"""
+[NewLine();],,[NewLine();]
+"#""than your ever feeble""",,"#""กว่าสมองกลวงๆ ของคุณแน่นอน"""
+[NewLine();],,[NewLine();]
+"#""mind, Mr. Wright.""",,"#""คุณ<ไรท์>"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""What do you mean,""",,"#""หมายความว่ายังไง"""
+[NewLine();],,[NewLine();]
+"#""Mr. Edgeworth?""",,"#""คุณ<เอ็จเวิร์ธ>?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""This photograph was not""",,"#""รูปนี้ไม่ได้ถูกถ่าย"""
+[NewLine();],,[NewLine();]
+"#""taken the moment before""",,"#""ก่อนที่จะเกิดการแทง..."""
+[NewLine();],,[NewLine();]
+"#""the stabbing...""",,"#"""""
+[Op_2D();],,[Op_2D();]
+"#""This was taken the moment""",,"#""มันถูกถ่าย"""
+[NewLine();],,[NewLine();]
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""AFTER""",,"#""หลังจาก"""
+[SetTextColor(White);],,[SetTextColor(White);]
+"#"" the stabbing!""",,"#""การแทงต่างหาก!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""A-""",,"#""ล-"""
+[Wait(8);],,[Wait(8);]
+"#""and how can you tell that!?""",,"#""แล้วคุณจะรู้ได้ไง!?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""Blood splatter""",,"#""เลือดกระเซ็น"""
+[SetTextColor(White);],,[SetTextColor(White);]
+"#"".""",,"#"""""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Huh?""",,"#""หือ?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""See """,,"#""เห็น"""
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""the dark crimson stains""",,"#""รอยสีแดงก่ำ"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[NewLine();],,[NewLine();]
+"#""on the Chief Prosecutor's""",,"#""บนเสื้อโค้ทของ"""
+[NewLine();],,[NewLine();]
+"#""coat?""",,"#""อัยการสูงสุดไหม?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(But it's a black-and-white""",,"#""(แต่นั่นมันเป็นรูปขาวดำนะ!)"""
+[NewLine();],,[NewLine();]
+"#""photograph!)""",,"#"""""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Ah...""",,"#""อ๋า..."""
+[Wait(20);],,[Wait(20);]
+"#"" yes,""",,"#"" ครับ"""
+"#"" """,,"#"" """
+"#""it's hard to""",,"#""มันก็ยากที่จะบอก"""
+[NewLine();],,[NewLine();]
+"#""tell, but this could be """,,"#""แต่นี่อาจเป็น"""
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""blood""",,"#""เลือด"""
+[SetTextColor(White);],,[SetTextColor(White);]
+"#"".""",,"#""ก็ได้"""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""Well, Mr. Wright?""",,"#""ว่าไง คุณ<ไรท์>?"""
+[NewLine();],,[NewLine();]
+"#""I see no problem here.""",,"#""ผมไม่เห็นปัญหาอะไรตรงนี้นะ"""
+[Op_2D();],,[Op_2D();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""No problem...""",,"#""ที่เป็นปัญหาน่ะ..."""
+[Wait(20);],,[Wait(20);]
+"#"" except you.""",,"#"" คงมีแต่คุณ"""
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""Mr. Wright!""",,"#""คุณ<ไรท์>!"""
+[Wait(20);],,[Wait(20);]
+"#"" """,,"#"" """
+"#""Are you going""",,"#""นี่คุณจะยอม"""
+[NewLine();],,[NewLine();]
+"#""to just sit there and take""",,"#""ยืนนิ่งอยู่ตรงนี้"""
+[NewLine();],,[NewLine();]
+"#""that kind of abuse!?""",,"#""แล้วยอมโดนบูลลี่เหรอ!?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(Argh...""",,"#""(อ้าก..."""
+[Wait(20);],,[Wait(20);]
+"#"" You got a better""",,"#"" แล้วเธอจะให้ฉัน"""
+[NewLine();],,[NewLine();]
+"#""idea?)""",,"#""ทำยังไงงงง?)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Wait(20);],,[Wait(20);]
+[Wait(1);],,[Wait(1);]
+[NewLine();],,[NewLine();]
+"[Op_08(153, 152);]",,"[Op_08(153, 152);]"
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Now that you mention it,""",,"#""ที่คุณพูดมาก็จริง"""
+[NewLine();],,[NewLine();]
+"#""I see no problem here.""",,"#""ผมไม่เห็นปัญหาอะไรเลย"""
+[ReadKey();],,[ReadKey();]
+"#""Other than myself.""",,"#""นอกจากตัวผมเอง"""
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""M-""",,"#""ค-"""
+[Wait(8);],,[Wait(8);]
+"#""Mr. Wright! """,,"#""คุณ<ไรท์>! """
+[Wait(20);],,[Wait(20);]
+"#""You can't just""",,"#""นี่คุณจะปล่อย"""
+[NewLine();],,[NewLine();]
+"#""let him walk all over you!""",,"#""ให้เขามาย่ำยีแบบนี้ไม่ได้นะ!"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""Th-""",,"#""นี่มัน-"""
+[Wait(8);],,[Wait(8);]
+"#""that's just sad!""",,"#""จะน่าสมเพชเกินไปแล้ว!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""Feeling sad, Mr. Wright?""",,"#""น้อยใจงั้นเหรอ คุณ<ไรท์>?"""
+[NewLine();],,[NewLine();]
+[Wait(15);],,[Wait(15);]
+[Wait(36);],,[Wait(36);]
+[Wait(25);],,[Wait(25);]
+"#""Perhaps a bittersweet ""First""",,"#""สงสัยต้องลอง ""เซ็ตรักแรกพบยามพักเที่ยง"""""
+[NewLine();],,[NewLine();]
+"#""Love Lunchbox"" is in order?""",,"#""อันขมขื่น ซะแล้วมั้ง?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Well, that was a waste""",,"#""เอาล่ะ เสียเวลา"""
+[NewLine();],,[NewLine();]
+"#""of time.""",,"#""มามากเกินไปแล้ว"""
+[ReadKey();],,[ReadKey();]
+"#""Let's continue with""",,"#""มาต่อกันด้วย"""
+[NewLine();],,[NewLine();]
+"#""the testimony.""",,"#""คำเบิกความดีกว่า"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(Perhaps I should have""",,"#""(บางทีฉันน่าจะ"""
+[NewLine();],,[NewLine();]
+"#""dug a little deeper...)""",,"#""ขุดให้ลึกกว่านี้...)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Wait!""",,"#""เดี๋ยว!"""
+[Wait(20);],,[Wait(20);]
+"#"" That contradicts """,,"#"" นั่นมันขัดแย้ง"""
+[NewLine();],,[NewLine();]
+"#""what the witness said""",,"#""กับสิ่งที่พยานพูด"""
+[NewLine();],,[NewLine();]
+"#""in her testimony!""",,"#""ในคำเบิกความครับ!"""
+[ReadKey();],,[ReadKey();]
+"#""Namely,""",,"#""นั่นคือ"""
+[Wait(15);],,[Wait(15);]
+"#"" that she took the """,,"#"" เธอได้ถ่ายรูป"""
+[NewLine();],,[NewLine();]
+"#""picture the """"",,"#""ตอนที่ """""
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""moment""",,"#""กำลังเกิดเหตุ"""
+[SetTextColor(White);],,[SetTextColor(White);]
+"#""""""",,"#"""""""
+[NewLine();],,[NewLine();]
+"#""she witnessed the crime!""",,"#""ไม่ใช่หลังเกิดเหตุครับ!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""Well, it seems I was""",,"#""เข้าใจล่ะ ดูเหมือนฉัน"""
+[NewLine();],,[NewLine();]
+"#""slightly unclear.""",,"#""จะพูดไม่ชัดเจนพอ"""
+[NewLine();],,[NewLine();]
+"#""My apologies.""",,"#""ขออภัยด้วย"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""...""",,"#""..."""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""...""",,"#""..."""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Th-""",,"#""ค-"""
+[Wait(8);],,[Wait(8);]
+"#""that's it!?""",,"#""แค่เนี้ย!?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""If you run out of lunch,""",,"#""ถ้ากินไม่อิ่ม"""
+[NewLine();],,[NewLine();]
+"#""you order seconds.""",,"#""ก็สั่งอีกจาน"""
+[Wait(20);],,[Wait(20);]
+"#"" Problem""",,"#"" ปัญหา"""
+[NewLine();],,[NewLine();]
+"#""solved!""",,"#""คลี่คลาย!"""
+[ReadKey();],,[ReadKey();]
+"#""If you """,,"#""แต่ถ้าคุณ"""
+"#""don't like it,""",,"#""ไม่ชอบแบบนี้"""
+"#"" try""",,"#"" ทำไมไม่"""
+[NewLine();],,[NewLine();]
+"#""ordering """,,"#""สั่ง"""
+"#""the jumbo""",,"#""พิเศษ"""
+"#"" sized""",,"#"""""
+[NewLine();],,[NewLine();]
+"#""lunch from """,,"#""มาตั้งแต่"""
+"#""the get-go!""",,"#""แรกล่ะ!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""Good advice.""",,"#""แนะนำได้ดีค่ะ"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""I'm not sure I understood""",,"#""หนูไม่รู้ว่าเข้าใจไหม"""
+[NewLine();],,[NewLine();]
+"#""it, but...""",,"#""แต่..."""
+[Wait(20);],,[Wait(20);]
+"#"" good advice.""",,"#"" เป็นคำแนะนำที่ดี"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""I didn't have time to""",,"#""ฉันไม่มีเวลา"""
+[NewLine();],,[NewLine();]
+"#""stop her.""",,"#""ที่จะหยุดเธอ"""
+[ReadKey();],,[ReadKey();]
+"#""Prosecutor Skye was cold,""",,"#""อัยการ<สกาย>นั้นเยือกเย็น"""
+[NewLine();],,[NewLine();]
+"#""calculating, like a robot.""",,"#""คิดนั่นคิดนี่อย่างกับหุ่นยนต์"""
+[ReadKey();],,[ReadKey();]
+"#""She killed without pain""",,"#""เธอลงมือฆ่าโดยไม่มีแม้กระทั่งความเจ็บปวด"""
+[NewLine();],,[NewLine();]
+"#""or remorse!""",,"#""หรือสำนึกผิด!"""
+[Wait(20);],,[Wait(20);]
+"#"" It was a""",,"#"" นั่นมันเป็น"""
+[NewLine();],,[NewLine();]
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""pr""",,"#""การฆาตกรรม"""
+"#""emeditated murder""",,"#""โดยไตร่ตรองไว้ก่อน"""
+[SetTextColor(White);],,[SetTextColor(White);]
+"#""!""",,"#""!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""P-""",,"#""ต-"""
+[Wait(8);],,[Wait(8);]
+"#""premeditated!?""",,"#""ไตร่ตรองไว้ก่อน!?"""
+[NewLine();],,[NewLine();]
+"#""How do you know!?""",,"#""คุณรู้ได้ยังไง!?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""Look at the chief prosecutor's""",,"#""ลองดูที่มือของอัยการสูงสุด"""
+[NewLine();],,[NewLine();]
+"#""hands in that photograph.""",,"#""ในรูปนั้นสิ"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Well...!""",,"#""หืม...!"""
+[NewLine();],,[NewLine();]
+"#""Are those...""",,"#""พวกนั้นคือ..."""
+[Wait(20);],,[Wait(20);]
+"#"" """,,"#"" """
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""gloves""",,"#""ถุงมือ"""
+[SetTextColor(White);],,[SetTextColor(White);]
+"#""?""",,"#""รึเปล่า?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""Surgical gloves made of thin""",,"#""น่าจะเป็นถุงมือผ่าตัด"""
+[NewLine();],,[NewLine();]
+"#""rubber, most likely.""",,"#""ที่ทำมาจากยางบางๆ"""
+[Wait(20);],,[Wait(20);]
+"#"" Why""",,"#"" ทำไมเธอ"""
+[NewLine();],,[NewLine();]
+"#""would she have those on?""",,"#""ถึงใส่มันอยู่ล่ะ?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Uh...""",,"#""เอ่อ..."""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""If it was not premeditated,""",,"#""ถ้าเกิดมันไม่ใช่ไตร่ตรองไว้ก่อน"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""she """,,"#""เธอ"""
+"#""would """,,"#""ก็คง"""
+"#""not be """,,"#""จะไม่ได้"""
+"#""wearing""",,"#""ใส่"""
+[NewLine();],,[NewLine();]
+"#""those """,,"#""ถุงมือ"""
+"#""gloves!""",,"#""พวกนั้นหรอก!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Wa""",,"#""เห"""
+"#""aaa""",,"#""ว"""
+"#""aargh!""",,"#""ออออ!"""
+[Wait(50);],,[Wait(50);]
+[ClearText();],,[ClearText();]
+,,
+[Judge],,[Judge]
+"#""These gloves do seem to""",,"#""ถุงมือบ่งบอกถึงเจตนา"""
+[NewLine();],,[NewLine();]
+"#""tell a tale of premeditation!""",,"#""ของการคิดไว้ก่อนจริงด้วย!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""Premeditated murder...""",,"#""การฆาตกรรมโดยไตร่ตรองไว้ก่อน..."""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""a serious offense.""",,"#""ความผิดร้ายแรงเลยล่ะ"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Witness!""",,"#""พยาน!"""
+[Wait(20);],,[Wait(20);]
+"#"" Add this to your""",,"#"" เพิ่มเรื่องนี้"""
+[NewLine();],,[NewLine();]
+"#""testimony!""",,"#""ในคำเบิกความด้วย!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Witness, """,,"#""พยาน """
+[Wait(15);],,[Wait(15);]
+"#""do you know""",,"#""คุณรู้หรือเปล่า"""
+[NewLine();],,[NewLine();]
+"#""what this is?""",,"#""ว่านี่คืออะไร?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""Are you trying to test me?""",,"#""นายจะทดสอบฉันรึไง?"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""I sell box lunches for""",,"#""ฉันอยู่ได้ด้วย"""
+[NewLine();],,[NewLine();]
+"#""a living, you know.""",,"#""การขายข้าวกล่องนะ รู้ไว้"""
+[ReadKey();],,[ReadKey();]
+"#""That's a knife.""",,"#""ดูยังไงมันก็มีด"""
+[Wait(20);],,[Wait(20);]
+"#"" THE knife.""",,"#"" มีดนั่นไง"""
+[ReadKey();],,[ReadKey();]
+"#""The knife that was in""",,"#""มีดที่อยู่ในท้ายรถ"""
+[NewLine();],,[NewLine();]
+"#""Mr. Edgeworth's trunk!""",,"#""ของคุณ<เอ็จเวิร์ธ>น่ะ!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""Indeed,""",,"#""ถูกต้อง"""
+[Wait(10);],,[Wait(10);]
+"#"" it is my knife.""",,"#"" นั่นเป็นมีดของผม"""
+[ReadKey();],,[ReadKey();]
+,,
+[Clear Speaker],,[Clear Speaker]
+"#""What's with this case!?""",,"#""คดีนี้มันยังไงกันเนี่ย!?"""
+[Wait(70);],,[Wait(70);]
+[ClearText();],,[ClearText();]
+,,
+[Clear Speaker],,[Clear Speaker]
+"#""The bloody murder weapon,""",,"#""อาวุธฆาตกรรมเปื้อนเลือด"""
+[NewLine();],,[NewLine();]
+"#""a red car...""",,"#""รถสีแดง..."""
+[Wait(20);],,[Wait(20);]
+"#"" all belonging to""",,"#"" ทุกอย่างเป็นของของ"""
+[NewLine();],,[NewLine();]
+"#""the prosecutor there!?""",,"#""อัยการคนนี้เนี่ยนะ!?"""
+[Wait(70);],,[Wait(70);]
+[ClearText();],,[ClearText();]
+,,
+[Clear Speaker],,[Clear Speaker]
+"#""The defendant is the chief""",,"#""จำเลยเป็นอัยการสูงสุด"""
+[NewLine();],,[NewLine();]
+"#""prosecutor for the district,""",,"#""ของเขตนี้นี่"""
+[NewLine();],,[NewLine();]
+"#""right?""",,"#""ใช่ไหม?"""
+[Wait(70);],,[Wait(70);]
+[ClearText();],,[ClearText();]
+,,
+[Clear Speaker],,[Clear Speaker]
+"#""Mommy,""",,"#""แม่จ๋า"""
+[Wait(14);],,[Wait(14);]
+"#"" are prosecutors""",,"#"" พวกอัยการ"""
+[NewLine();],,[NewLine();]
+"#""bad people?""",,"#""เป็นคนไม่ดีเหรอคะ?"""
+[Wait(70);],,[Wait(70);]
+[ClearText();],,[ClearText();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""The defense has a request.""",,"#""ฝ่ายจำเลยมีคำขอครับ"""
+[ReadKey();],,[ReadKey();]
+"#""We ask that the witness""",,"#""พวกผมขอให้พยาน"""
+[NewLine();],,[NewLine();]
+"#""provide an ACCURATE testimony.""",,"#""เบิกความให้ถูกต้องด้วยครับ"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""What's that, Rookie?""",,"#""อะไรอีกล่ะ มือใหม่?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""In your testimony...""",,"#""ในคำเบิกความของคุณ..."""
+[ReadKey();],,[ReadKey();]
+"#""You stated that Lana Skye""",,"#""คุณบอกว่า<ลาน่า สกาย>"""
+[NewLine();],,[NewLine();]
+"#""planned this murder.""",,"#""วางแผนการฆาตกรรมขึ้นมา"""
+[ReadKey();],,[ReadKey();]
+"#""And that's why she was""",,"#""และนั่นก็เป็นเหตุผล"""
+[NewLine();],,[NewLine();]
+"#""wearing those special gloves.""",,"#""ที่ทำไมเธอถึงใส่ถุงมือ"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Seems like a natural""",,"#""สำหรับศาลแล้ว"""
+[NewLine();],,[NewLine();]
+"#""conclusion to me!""",,"#""มันก็ควรจะเป็นเช่นนั้น!"""
+[Wait(20);],,[Wait(20);]
+"#"" The gloves""",,"#"" ถุงมือนั่น"""
+[NewLine();],,[NewLine();]
+"#""do indicate planning...""",,"#""แสดงให้เห็นว่าวางแผนมาก่อน..."""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""However!""",,"#""ยังไงก็ตาม!"""
+[ReadKey();],,[ReadKey();]
+"#""Why would she not also""",,"#""แล้วทำไมเธอถึงไม่เตรียม"""
+[NewLine();],,[NewLine();]
+"#""prepare the most important""",,"#""สิ่งที่สำคัญมากที่สุด... หรือก็คือ"""
+[NewLine();],,[NewLine();]
+"#""thing...""",,"#"""""
+[Wait(20);],,[Wait(20);]
+"#"" """,,"#"""""
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""the murder weapon""",,"#""อาวุธฆาตกรรม"""
+[SetTextColor(White);],,[SetTextColor(White);]
+"#""!?""",,"#""มาด้วยล่ะ!?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""Oh.""",,"#""โอ้"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""This knife just happened to""",,"#""มีดเล่มนี้มันบังเอิญอยู่ท้ายรถ"""
+[NewLine();],,[NewLine();]
+"#""be in the trunk of that car.""",,"#""ของรถคันนั้น"""
+[ReadKey();],,[ReadKey();]
+"#""Ladies and gentlemen,""",,"#""ท่านสุภาพบุรุษและสุภาพสตรี"""
+[Wait(15);],,[Wait(15);]
+"#"" if""",,"#"""""
+[NewLine();],,[NewLine();]
+"#""you're going to plan a murder,""",,"#""ถ้าคุณกำลังวางแผนที่จะฆ่าใคร"""
+[NewLine();],,[NewLine();]
+"#""you do""",,"#""คุณก็คงไม่"""
+"#""n't forget the w""",,"#""ลืม"""
+"#""eapon!""",,"#""อาวุธนะครับ!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""Ugh... """,,"#""อะ... """
+[Wait(20);],,[Wait(20);]
+"#""Woo""",,"#""ว้าย"""
+"#""ooo""",,"#""ยยย"""
+"#""ooor""",,"#""ยยย"""
+"#""rrgh!""",,"#""ย!"""
+[Wait(40);],,[Wait(40);]
+[ClearText();],,[ClearText();]
+,,
+[Judge],,[Judge]
+"#""Order!""",,"#""เงียบ!"""
+[Wait(20);],,[Wait(20);]
+"#"" Order!""",,"#"" เงียบ!"""
+[Wait(20);],,[Wait(20);]
+"#"" Order!""",,"#"" เงียบเดี๋ยวนี้!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(Great!""",,"#""(เจ๋ง!"""
+[Wait(20);],,[Wait(20);]
+"#"" Now the tide is""",,"#"" ตอนนี้สายลม"""
+[NewLine();],,[NewLine();]
+"#""turning in our favor!)""",,"#""มันเปลี่ยนทิศมาข้างเราแล้ว!)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_2D();],,[Op_2D();]
+,,
+[Ema],,[Ema]
+"#""Great """,,"#""เยี่ยม"""
+"#""show, Mr. Wright!""",,"#""ไปเลย คุณ<ไรท์>!"""
+[NewLine();],,[NewLine();]
+"#""My sister's as good as free!""",,"#""พี่สาวหนูรอดแล้ว!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""Wright.""",,"#""<ไรท์>"""
+[Wait(20);],,[Wait(20);]
+[ReadKey();],,[ReadKey();]
+"#""I believe the next lunch""",,"#""ฉันเชื่อว่าข้าวเที่ยง"""
+[NewLine();],,[NewLine();]
+"#""you'll be eating is...""",,"#""ที่นายจะกินเมนูต่อไปคือ..."""
+[Wait(10);],,[Wait(10);]
+[NewLine();],,[NewLine();]
+"#""humble pie!""",,"#""""ผัดหมี่เจียมตน""!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""W-""",,"#""อ-"""
+[Wait(8);],,[Wait(8);]
+"#""what!?""",,"#""อะไร!?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""I hope you weren't deluding""",,"#""ฉันหวังว่านายคงไม่ได้"""
+[NewLine();],,[NewLine();]
+"#""yourself into thinking that""",,"#""หลอกตัวเองอยู่ว่า"""
+[NewLine();],,[NewLine();]
+"#""the ""tide has turned.""""",,"#""""สายลมเปลี่ยนทิศ"""""""
+[ReadKey();],,[ReadKey();]
+"#""Not over such a trifling""",,"#""ด้วยข้อมูลขี้ปะติ๋ว"""
+[NewLine();],,[NewLine();]
+"#""detail!""",,"#""พวกนี้น่ะ!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""B-""",,"#""ต-"""
+[Wait(8);],,[Wait(8);]
+"#""but this shoots a hole in""",,"#""แต่นี่มันเจาะช่องโหว่กลางทฤษฎี"""
+[NewLine();],,[NewLine();]
+"#""the whole premeditated theory!""",,"#""การฆาตกรรมโดยไตร่ตรองไว้เลยนะ!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""Bah!""",,"#""เหอะ!"""
+[ReadKey();],,[ReadKey();]
+"#""The prosecution could care""",,"#""ฝั่งโจทก์ไม่ได้สนใจสักนิด"""
+[NewLine();],,[NewLine();]
+"#""less if it was premeditated""",,"#""ว่ามันจะไตร่ตรองหรือไม่ได้"""
+[NewLine();],,[NewLine();]
+"#""or not.""",,"#""ไตร่ตรองไว้ก่อน"""
+[Op_2D();],,[Op_2D();]
+"#""The only one who seems to""",,"#""คนเดียวที่ดูจะสนใจ"""
+[NewLine();],,[NewLine();]
+"#""care is that lunchlady over""",,"#""ก็คงมีแต่สาวขายข้าวเที่ยง"""
+[NewLine();],,[NewLine();]
+"#""there.""",,"#""ตรงนั้นนี่แหละ"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""!""",,"#""!"""
+[Wait(30);],,[Wait(30);]
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""The defendant, Lana Skye,""",,"#""จำเลย <ลาน่า สกาย>"""
+[NewLine();],,[NewLine();]
+"#""murdered a detective with""",,"#""ฆ่าสายสืบ"""
+[NewLine();],,[NewLine();]
+"#""a knife.""",,"#""ด้วยมีด"""
+[ReadKey();],,[ReadKey();]
+"#""That is the only thing the""",,"#""นั่นเป็นเรื่องเดียวที่ฝ่ายโจทก์"""
+[NewLine();],,[NewLine();]
+"#""prosecution need prove.""",,"#""ต้องการที่จะพิสูจน์"""
+[Wait(30);],,[Wait(30);]
+[NewLine();],,[NewLine();]
+"#""Nothing else.""",,"#""นอกนั้นไม่เกี่ยว"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""Very good,""",,"#""ดีมาก"""
+[Wait(15);],,[Wait(15);]
+"#"" Mr. Prosecutor...""",,"#"" คุณอัยการ.."""
+[Wait(30);],,[Wait(30);]
+[NewLine();],,[NewLine();]
+"#""I suppose you think you're""",,"#""คิดว่าตอนนี้คุณฉลาดมาก"""
+[NewLine();],,[NewLine();]
+"#""clever now?""",,"#""แล้วสิท่า?"""
+[ReadKey();],,[ReadKey();]
+"#""But you know as well as I do""",,"#""แต่คุณก็รู้เหมือนที่ฉันรู้"""
+[NewLine();],,[NewLine();]
+"#""that she planned on killing""",,"#""ว่าเธอมีแผนที่จะฆ่าเขา!"""
+[NewLine();],,[NewLine();]
+"#""him!""",,"#"""""
+[Wait(20);],,[Wait(20);]
+"#"" It was planned!""",,"#""มันถูกวางแผนไว้แล้ว!"""
+[ReadKey();],,[ReadKey();]
+"#""If it wasn't, why would""",,"#""ถ้ามันไม่ใช่"""
+[NewLine();],,[NewLine();]
+"#""she have been wearing...""",,"#""เธอก็คงไม่ได้สวม..."""
+[Wait(40);],,[Wait(40);]
+[ClearText();],,[ClearText();]
+,,
+[Judge],,[Judge]
+"#""I believe I'd like to hear""",,"#""ผมอยากจะได้ยินคำเบิกความ"""
+[NewLine();],,[NewLine();]
+"#""your testimony again.""",,"#""ของคุณอีกรอบ"""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""Witness,""",,"#""พยาน"""
+[Wait(15);],,[Wait(15);]
+"#"" please tell us only""",,"#"" บอกเราแค่เพียง"""
+[NewLine();],,[NewLine();]
+"#""what you """"",,"#""สิ่งที่คุณ """""
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""saw""",,"#""เห็น"""
+[SetTextColor(White);],,[SetTextColor(White);]
+"#"","" not what""",,"#"""" ไม่ใช่สิ่ง"""
+[NewLine();],,[NewLine();]
+"#""you ""thought.""""",,"#""ที่คุณ ""คิด"""""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""How dare you!""",,"#""กล้าดียังไง!"""
+[Op_2D();],,[Op_2D();]
+"#""My po""",,"#""อย่ามาดูถูก"""
+"#""wers of ded""",,"#""พลัง"""
+"#""uction are""",,"#""การอนุมาน"""
+[NewLine();],,[NewLine();]
+"#""not to be """,,"#""ของ"""
+"#""underestimated!""",,"#""ฉันนะ!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(Really now...)""",,"#""(เอาจริงดิ...)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Clear Speaker],,[Clear Speaker]
+[SetTextColor(Red);],,[SetTextColor(Red);]
+[NewLine();],,[NewLine();]
+"#""-- Angel's Deduction --""",,"#""-- การอนุมานของ<แองเจิล> --"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Wait(100);],,[Wait(100);]
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""Lana Skye intended to""",,"#""<ลาน่า สกาย>ต้องการ"""
+[NewLine();],,[NewLine();]
+"#""murder Detective Goodman!""",,"#""ที่จะฆ่าสายสืบ<กู้ดแมน>!"""
+[ReadKey();],,[ReadKey();]
+"#""That's why she called the""",,"#""นั่นแหละทำไมเธอถึง"""
+[NewLine();],,[NewLine();]
+"#""victim all the way to the""",,"#""เรียกผู้ตายมาที่"""
+[NewLine();],,[NewLine();]
+"#""Prosecutor's Office.""",,"#""สำนักงานอัยการ"""
+[ReadKey();],,[ReadKey();]
+"#""I'm sure the Chief Prosecutor""",,"#""ฉันมั่นใจว่าอัยการสูงสุด"""
+[NewLine();],,[NewLine();]
+"#""had a grudge against the""",,"#""ต้องไม่ถูกกับผู้ตายแน่"""
+[NewLine();],,[NewLine();]
+"#""victim.""",,"#"""""
+[ReadKey();],,[ReadKey();]
+"#""Nothing else could drive that""",,"#""ไม่มีอะไรแล้วที่ทำให้คน"""
+[NewLine();],,[NewLine();]
+"#""human machine to plunge the""",,"#""กลายเป็นหุ่นบ้าคลั่ง"""
+[NewLine();],,[NewLine();]
+"#""knife in again and again...""",,"#""ใช้มีดแทงแล้วแทงอีกแบบนั้น..."""
+[Op_2D();],,[Op_2D();]
+,,
+[Judge],,[Judge]
+"#""The victim was summoned from""",,"#""ผู้ตายถูกเรียกตัวมาจากกรมตำรวจ"""
+[NewLine();],,[NewLine();]
+"#""the Police Department to the""",,"#""ให้มาที่สำนักงานอัยการ..."""
+[NewLine();],,[NewLine();]
+"#""Prosecutor's Office...""",,"#"""""
+[ReadKey();],,[ReadKey();]
+"#""It does sound a lot like""",,"#""มันก็ฟังดูเหมือนเป็นการไต่ตรองไว้ก่อน"""
+[NewLine();],,[NewLine();]
+"#""premeditation, doesn't it!?""",,"#""จริงไหม!?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""So,""",,"#""งั้น"""
+[Wait(10);],,[Wait(10);]
+"#"" if I ordered a pizza,""",,"#"" ถ้าหนูสั่งพิซซ่ามา"""
+[Wait(10);],,[Wait(10);]
+[NewLine();],,[NewLine();]
+"#""does that mean I'm planning""",,"#""ก็แปลว่าหนูวางแผนที่จะฆ่า"""
+[NewLine();],,[NewLine();]
+"#""to kill the delivery boy?""",,"#""คนส่งพิซซ่าใช่ไหมคะ?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""In any case,""",,"#""ยังไงก็ตามแต่"""
+[Wait(15);],,[Wait(15);]
+"#"" the defense may""",,"#"" อนุญาตให้ฝ่ายจำเลย"""
+[NewLine();],,[NewLine();]
+"#""now cross-examine the witness.""",,"#""ถามค้านพยานได้"""
+[Op_2D();],,[Op_2D();]
+,,
+[Clear Speaker],,[Clear Speaker]
+[SetTextColor(Red);],,[SetTextColor(Red);]
+[NewLine();],,[NewLine();]
+"#""-- Angel's Deduction --""",,"#""-- การอนุมานของ<แองเจิล> --"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Wait(100);],,[Wait(100);]
+[ReadKey();],,[ReadKey();]
+[NewLine();],,[NewLine();]
+,,
+[Starr],,[Starr]
+[SetTextColor(Green);],,[SetTextColor(Green);]
+"#""Lana Skye intended to""",,"#""<ลาน่า สกาย>ต้องการที่จะ"""
+[NewLine();],,[NewLine();]
+"#""murder Detective Goodman!""",,"#""ฆ่าสายสืบ<กู้ดแมน>!"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_15();],,[Op_15();]
+,,
+[Starr],,[Starr]
+[SetTextColor(Green);],,[SetTextColor(Green);]
+"#""That's why she called the""",,"#""นั่นแหละทำไมเธอถึงเรียกผู้ตาย"""
+[NewLine();],,[NewLine();]
+"#""victim all the way to the""",,"#""มาที่สำนักงานอัยการ"""
+[NewLine();],,[NewLine();]
+"#""Prosecutor's Office.""",,"#"""""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_15();],,[Op_15();]
+[NewLine();],,[NewLine();]
+,,
+[Starr],,[Starr]
+[SetTextColor(Green);],,[SetTextColor(Green);]
+"#""I'm sure the Chief Prosecutor""",,"#""ฉันมั่นใจว่าอัยการสูงสุด"""
+[NewLine();],,[NewLine();]
+"#""had a grudge against the""",,"#""ต้องไม่ถูกกับผู้ตายแน่"""
+[NewLine();],,[NewLine();]
+"#""victim.""",,"#"""""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_15();],,[Op_15();]
+,,
+[Starr],,[Starr]
+[SetTextColor(Green);],,[SetTextColor(Green);]
+"#""Nothing else could drive that""",,"#""ไม่มีอะไรแล้วที่ทำให้คน"""
+[NewLine();],,[NewLine();]
+"#""human machine to plunge the""",,"#""กลายเป็นหุ่นบ้าคลั่ง"""
+[NewLine();],,[NewLine();]
+"#""knife in again and again...""",,"#""ใช้มีดแทงแล้วแทงอีกแบบนั้น..."""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_15();],,[Op_15();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(Ms. Starr has turned out to""",,"#""(คุณ<สตาร์>ดูจะ"""
+[NewLine();],,[NewLine();]
+"#""be as short-tempered as she""",,"#""เป็นคนหัวร้อนง่ายเหมือน"""
+[NewLine();],,[NewLine();]
+"#""looked when we met her.)""",,"#""ตอนที่เราเจอกันครั้งแรก)"""
+[ReadKey();],,[ReadKey();]
+"#""(Challenging her abilities""",,"#""(การที่เราไปลบหลู่"""
+[NewLine();],,[NewLine();]
+"#""as a detective really set""",,"#""สกิลการสืบของเธอ"""
+[NewLine();],,[NewLine();]
+"#""her off!)""",,"#""ทำให้เธอสติแตก!)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""The short wick burns""",,"#""ไส้เทียนสั้นๆ"""
+[NewLine();],,[NewLine();]
+"#""out the fastest!""",,"#""จะไหม้เร็วที่สุด!"""
+[NewLine();],,[NewLine();]
+"#""It's a scientific fact!""",,"#""นี่เป็นข้อเท็จจริงทางวิทยาศาสตร์!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""I wonder...""",,"#""ฉันสงสัย..."""
+[Wait(20);],,[Wait(20);]
+"#"" wouldn't it""",,"#"" ไม่ใช่ว่า"""
+[NewLine();],,[NewLine();]
+"#""depend on the size of the""",,"#""มันขึ้นอยู่กับ"""
+[NewLine();],,[NewLine();]
+"#""candle?""",,"#""ขนาดของเทียนไม่ใช่เหรอ?"""
+[Op_2D();],,[Op_2D();]
+"#""I mean, add more wax and""",,"#""แบบ ใส่ขี้ผึ้งเพิ่ม"""
+[NewLine();],,[NewLine();]
+"#""even a really short wick""",,"#""แล้วถึงไส้จะสั้น"""
+[NewLine();],,[NewLine();]
+"#""will burn longer...""",,"#""มันก็จะไหม้นาน..."""
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""...""",,"#""..."""
+[ReadKey();],,[ReadKey();]
+"#""Obviously, more scientific""",,"#""แน่นอนว่าต้องมีการทดลอง"""
+[NewLine();],,[NewLine();]
+"#""testing is required!""",,"#""ทางวิทยาศาสตร์เพิ่มเติมถึงจะรู้!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+,,
+[Starr],,[Starr]
+[SetTextColor(Green);],,[SetTextColor(Green);]
+"#""Her red muffler looked like""",,"#""ผ้าพันคอปราด้าสีแดงก่ำของเธอ"""
+[NewLine();],,[NewLine();]
+"#""blood to me...""",,"#""ดูเหมือนเลือดสำหรับฉัน..."""
+[Wait(20);],,[Wait(20);]
+"#"" That's how""",,"#"""""
+[NewLine();],,[NewLine();]
+"#""ghastly the whole scene was.""",,"#""นั่นคือความน่ากลัวของที่เกิดเหตุนั้น"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_15();],,[Op_15();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""You've said that, but you""",,"#""คุณเคยพูดไปแล้ว"""
+[NewLine();],,[NewLine();]
+"#""haven't told us how you know!""",,"#""แต่คุณไม่เคยบอกว่ารู้ได้ยังไง!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""That's what I'm about""",,"#""ก็ฉันกำลังจะบอกนี่ไง"""
+[NewLine();],,[NewLine();]
+"#""to tell you, Rookie!""",,"#""ไอ้มือใหม่!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""I believe what she just said""",,"#""ผมเชื่อว่าสิ่งที่เธอเพิ่งพูด"""
+[NewLine();],,[NewLine();]
+"#""was a mere prelude to the""",,"#""มันก็แค่ประโยคเปิด"""
+[NewLine();],,[NewLine();]
+"#""story she is about to tell.""",,"#""ของเรื่องที่เธอกำลังจะบอกนะ"""
+[ReadKey();],,[ReadKey();]
+"#""Try not to interrupt her""",,"#""พยายามอย่าไปรบกวน"""
+[NewLine();],,[NewLine();]
+"#""again.""",,"#""เธออีกล่ะ"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""Rookie...""",,"#""มือใหม่..."""
+[ReadKey();],,[ReadKey();]
+"#""N""",,"#"""""
+"#""ever interrupt a """,,"#""อย่ามากวน"""
+"#""storyteller!""",,"#""คนกำลังจะเล่าอีก!"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""It's like pulling a bun out""",,"#""มันเหมือนกับการเอาซาลาเปา"""
+[NewLine();],,[NewLine();]
+"#""of the oven """,,"#""ออกมาจากเตา"""
+"#""half-baked!""",,"#""ทั้งที่ยังนึ่งสุกไม่เต็มที่!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(Something's half-baked""",,"#""(ไอ้ที่ไม่เต็มน่ะ"""
+[NewLine();],,[NewLine();]
+"#""here alright, and it's you!)""",,"#""มีแต่สติคุณนั่นแหละ!)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""Try not to confuse the""",,"#""พยาน อย่าไปทำให้ฝ่ายจำเลย"""
+[NewLine();],,[NewLine();]
+"#""defense, witness.""",,"#""สับสน"""
+[Wait(20);],,[Wait(20);]
+"#"" They're""",,"#"" พวกเขา"""
+[NewLine();],,[NewLine();]
+"#""not very quick on their feet.""",,"#""ตามใครไม่ค่อยทันเท่าไหร่"""
+[ReadKey();],,[ReadKey();]
+"#""Now, why did you believe""",,"#""ทีนี้ ทำไมคุณถึงเชื่อ"""
+[NewLine();],,[NewLine();]
+"#""the suspect had intentions""",,"#""ว่าผู้ต้องสงสัยมีความตั้งใจ"""
+[NewLine();],,[NewLine();]
+"#""to murder the victim?""",,"#""ที่จะสังหารผู้ตายครับ?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""Her actions speak for""",,"#""การกระทำของเธอ"""
+[NewLine();],,[NewLine();]
+"#""themselves!""",,"#""มันบ่งบอกอยู่แล้ว!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""You have no proof that """,,"#""คุณไม่มีหลักฐาน"""
+[NewLine();],,[NewLine();]
+"#""Ms. Skye called him there!""",,"#""ว่าคุณ<สกาย>เรียกเขาไปที่นั่นนะ!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""You have no proof that""",,"#""คุณก็ไม่มีหลักฐาน"""
+[NewLine();],,[NewLine();]
+"#""she didn't!""",,"#""ว่าเธอไม่ได้เรียก!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Hmm... """,,"#""ฮืม... """
+[Wait(20);],,[Wait(20);]
+"#""Mr. Edgeworth, thoughts?""",,"#""คุณ<เอ็จเวิร์ธ> คิดยังไงครับ?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""There is no record of a call""",,"#""มันไม่มีประวัติการโทร"""
+[NewLine();],,[NewLine();]
+"#""made on the defendant, Ms.""",,"#""ที่มาจากโทรศัพท์"""
+[NewLine();],,[NewLine();]
+"#""Lana Skye's phone.""",,"#""ของคุณ<ลาน่า สกาย>ครับ"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""She might have written him""",,"#""เธออาจจะเขียนจดหมาย"""
+[NewLine();],,[NewLine();]
+"#""a letter!""",,"#""ให้เขาก็ได้!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(C'mon!""",,"#""(ไม่เอาหน่า!"""
+[Wait(20);],,[Wait(20);]
+"#"" You could have tried""",,"#"" อย่างน้อยก็อ้างว่าใช้"""
+[NewLine();],,[NewLine();]
+"#""""public phone"" first, at least!)""",,"#""""ตู้โทรศัพท์สาธารณะ"" ก็ได้!)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""In any case, the victim came""",,"#""ยังไงซะ ผู้ตายก็มา"""
+[NewLine();],,[NewLine();]
+"#""to the Prosecutor's Office,""",,"#""ที่สำนักงานอัยการ"""
+[NewLine();],,[NewLine();]
+"#""where he was murdered.""",,"#""ซึ่งเป็นที่ที่เขาถูกฆ่า"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""I'm sure he had a reason""",,"#""ศาลมั่นใจว่ามันต้องมีสาเหตุ"""
+[NewLine();],,[NewLine();]
+"#""to be there.""",,"#""ที่เขาอยู่ที่นั่น"""
+[ReadKey();],,[ReadKey();]
+"#""Witness?""",,"#""พยาน?"""
+[ReadKey();],,[ReadKey();]
+"#""Why do you think it was""",,"#""ทำไมคุณถึงคิดว่าเป็นจำเลย"""
+[NewLine();],,[NewLine();]
+"#""the suspect who summoned""",,"#""ที่เรียกตัวผู้ตาย"""
+[NewLine();],,[NewLine();]
+"#""the victim that day?""",,"#""มาในวันนั้นครับ?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""What kind of ""grudge""!?""",,"#""""ไม่ถูกกัน"" แบบไหนครับ!?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""Well,""",,"#""แหม"""
+[Wait(15);],,[Wait(15);]
+"#"" I wouldn't know that.""",,"#"" ฉันจะไปรู้ได้ยังไง"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Of course you don't!""",,"#""ก็แหงสิว่าคุณไม่รู้!"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""That's because she didn't""",,"#""นั่นก็เพราะเธอ"""
+[NewLine();],,[NewLine();]
+"#""have a grudge!""",,"#""ไม่ได้มีเรื่องบาดหมางอะไร!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""Rookie...""",,"#""มือใหม่..."""
+[ReadKey();],,[ReadKey();]
+"#""I have a lunchbox here.""",,"#""ฉันมีข้าวกล่องอยู่นี่"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""Now...""",,"#""ทีนี้..."""
+[Wait(20);],,[Wait(20);]
+"#"" what's inside?""",,"#"" อะไรอยู่ข้างในล่ะ?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""H-""",,"#""ล-"""
+[Wait(8);],,[Wait(8);]
+"#""how am I supposed to know!?""",,"#""แล้วผมจะไปรู้ได้ยังไง!?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""See?""",,"#""เห็นมะ?"""
+[Wait(20);],,[Wait(20);]
+"#"" """,,"#"" """
+"#""We agree there is a""",,"#""เราเห็นตรงกัน"""
+[NewLine();],,[NewLine();]
+"#""lunchbox here, but we don't""",,"#""ว่าเรามีข้าวกล่องตรงนี้"""
+[NewLine();],,[NewLine();]
+"#""know what's inside!""",,"#""แต่ก็ไม่รู้ว่าอะไรอยู่ข้างใน!"""
+[ReadKey();],,[ReadKey();]
+"#""A person's life is like""",,"#""ชีวิตของคนเรา"""
+[NewLine();],,[NewLine();]
+"#""a lunchbox with pretzels.""",,"#""ก็เหมือนกับข้าวกล่องกับเพรทเซล"""
+[NewLine();],,[NewLine();]
+"#""Don't you agree?""",,"#""เห็นด้วยไหม?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""I-""",,"#""ข-"""
+[Wait(8);],,[Wait(8);]
+"#""I get it!""",,"#""เข้าใจแล้ว!"""
+[Wait(20);],,[Wait(20);]
+"#"" """,,"#"" """
+"#""That's why my""",,"#""นี่สินะทำไมข้าวกล่องผม"""
+[NewLine();],,[NewLine();]
+"#""lunch was so salty!""",,"#""ถึงได้เค็มขนาดนี้!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(This judge isn't very""",,"#""(ผู้พิพากษาคนนี้"""
+[NewLine();],,[NewLine();]
+"#""good with metaphors...)""",,"#""ไม่เก่งเรื่องคำอุปลักษณ์สินะ...)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_2D();],,[Op_2D();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""The suspect had a grudge""",,"#""ผู้ต้องสงสัยมีเรื่องบาดหมาง"""
+[NewLine();],,[NewLine();]
+"#""against Detective Goodman.""",,"#""กับสายสืบ<กู้ดแมน>"""
+[ReadKey();],,[ReadKey();]
+"#""Will you tell us your """,,"#""ช่วยบอกเราหน่อยครับ """
+[NewLine();],,[NewLine();]
+"#""basis for thinking this?""",,"#""ว่าเหตุผลที่คิดแบบนี้คืออะไร?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""It's simple...""",,"#""ง่ายจะตายไป..."""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""A ""human machine""!?""",,"#""""หุ่นบ้าคลั่ง""!?"""
+[NewLine();],,[NewLine();]
+"#""That's a contra""",,"#""นั่นมันขัด"""
+"#""diction!""",,"#""แย้งกัน!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""Please...""",,"#""ขอเถอะ..."""
+[Wait(80);],,[Wait(80);]
+[Op_2D();],,[Op_2D();]
+"#""Can't you find fault with""",,"#""หาอะไรที่มัน"""
+[NewLine();],,[NewLine();]
+"#""something of substance,""",,"#""ฟังขึ้นกว่านี้ไม่ได้แล้วเหรอ"""
+[NewLine();],,[NewLine();]
+"#""Mr. Wright?""",,"#""คุณ<ไรท์>?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""Note to self:""",,"#""โน้ต:"""
+[Wait(20);],,[Wait(20);]
+"#"" Mr. Edgeworth's""",,"#"" กลิ่นถอนหายใจของคุณ<เอ็จเวิร์ธ>"""
+[NewLine();],,[NewLine();]
+"#""sighs smell like citrus fruit.""",,"#""เหมือนผลไม้ตระกูลซิตรัส"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Umm...""",,"#""อืมม..."""
+[ReadKey();],,[ReadKey();]
+"#""You say ""again and again""...""",,"#""คุณบอกว่า ""แทงแล้วแทงอีก""..."""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""how many times did she stab""",,"#""เธอแทงเขาไปกี่ครั้ง"""
+[NewLine();],,[NewLine();]
+"#""him, exactly?""",,"#""กันแน่ครับ?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""We often say ""chop into a """,,"#""เรามักจะพูดกันว่า ""มีคนเป็นล้านเลย"""""
+[NewLine();],,[NewLine();]
+"#""thousand pieces,"" but we don't""",,"#""ตอนเจอที่คนเยอะๆ"" แต่เราไม่ได้"""
+[NewLine();],,[NewLine();]
+"#""actually mean 1,000 pieces.""",,"#""จะหมายความว่าเป็นล้านจริงๆ สักหน่อย"""
+[ReadKey();],,[ReadKey();]
+"#""What difference does it make""",,"#""มันจะไปต่างอะไรกัน"""
+[NewLine();],,[NewLine();]
+"#""if the deed is done!?""",,"#""ถ้ามันทำไปแล้ว!?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(How come she's getting mad""",,"#""(แล้วเธอมาโกรธฉัน"""
+[NewLine();],,[NewLine();]
+"#""at me!?)""",,"#""ได้ไงเนี่ย!?)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Let's just say she stabbed""",,"#""เอาเป็นว่าเธอแทงเขา"""
+[NewLine();],,[NewLine();]
+"#""him several times and leave""",,"#""เป็นจำนวนหลายครั้ง"""
+[NewLine();],,[NewLine();]
+"#""it at that.""",,"#""แค่นี้ก็พอ"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(Leave it at that!?""",,"#""(แค่นี้ก็พอเหรอ!?"""
+[Wait(20);],,[Wait(20);]
+"#"" This""",,"#"""""
+[NewLine();],,[NewLine();]
+"#""is a murder case, people!)""",,"#""นี่มันคดีฆาตกรรมนะทุกคน!)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""Mr. Wright, you should speak""",,"#""คุณ<ไรท์> ถ้าคุณจะคัดค้านอะไร"""
+[NewLine();],,[NewLine();]
+"#""up if you have an objection,""",,"#""ก็พูดออกมาเลย!"""
+[NewLine();],,[NewLine();]
+"#""you know!""",,"#"""""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Her red muffler?""",,"#""ปราด้าแดงก่ำ?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""Yes, like a scarf.""",,"#""ใช่ มันเป็นผ้าพันคอ"""
+[Wait(20);],,[Wait(20);]
+"#"" The Chief""",,"#"""""
+[NewLine();],,[NewLine();]
+"#""Prosecutor always wears one""",,"#""อัยการสูงสุดสวมเอาไว้ตลอด"""
+[NewLine();],,[NewLine();]
+"#""around her neck.""",,"#"""""
+[ReadKey();],,[ReadKey();]
+"#""So she can be easily""",,"#""สงสัยคงเพราะเธอ"""
+[NewLine();],,[NewLine();]
+"#""hanged at a moment's """,,"#""จะได้แขวนคอตัวเองเมื่อไหร่ก็ได้ """
+[NewLine();],,[NewLine();]
+"#""notice, I suppose...""",,"#""ล่ะมั้งนะ..."""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(She's right...)""",,"#""(ก็จริง...)"""
+[ReadKey();],,[ReadKey();]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(Ms. Skye was wearing a""",,"#""(คุณ<สกาย>พัน"""
+[NewLine();],,[NewLine();]
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""red scarf""",,"#""ผ้าพันคอสีแดง"""
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""...""",,"#""..."""
+[Wait(20);],,[Wait(20);]
+"#"" wasn't she?)""",,"#"" ไว้ใช่ไหมนะ?)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+"#""But wait...""",,"#""แต่เดี๋ยวก่อนนะ..."""
+[ReadKey();],,[ReadKey();]
+"#""Isn't it odd that you mistook""",,"#""ไม่แปลกไปหน่อยเหรอที่เห็นมัน"""
+[NewLine();],,[NewLine();]
+"#""that for splattered blood?""",,"#""เป็นรอยเลือดกระจายน่ะ?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""...""",,"#""..."""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Well, people often mistake""",,"#""ก็นะ คนมักจะเข้าใจผิด"""
+[NewLine();],,[NewLine();]
+"#""my beard...""",,"#""ว่าหนวดผม..."""
+[ReadKey();],,[ReadKey();]
+"#""For a bib.""",,"#""เป็นผ้ากันเปื้อนเด็ก"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(A judge with a bib.""",,"#""(ผู้พิพากษากับผ้ากันเปื้อน"""
+[Wait(20);],,[Wait(20);]
+"#"" That's""",,"#"" นี่สินะ"""
+[NewLine();],,[NewLine();]
+"#""why this place feels so much""",,"#""ทำไมบางทีที่นี่มันเหมือน"""
+[NewLine();],,[NewLine();]
+"#""like kindergarten sometimes.)""",,"#""โรงเรียนอนุบาลยังไงยังงั้น)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""Actually...""",,"#""จริงๆ แล้ว..."""
+[Op_2D();],,[Op_2D();]
+"#""I do think I saw some traces""",,"#""ฉันว่าฉันเห็นรอยเลือดนิดหน่อย"""
+[NewLine();],,[NewLine();]
+"#""of blood on her chest...""",,"#""บนหน้าอกของเธอ..."""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""However, the autopsy report is""",,"#""ยังไงก็ตาม ผลชันสูตร"""
+[NewLine();],,[NewLine();]
+"#""clear on this matter.""",,"#""ก็ชัดในประเด็นนี้"""
+[ReadKey();],,[ReadKey();]
+"#""There was only one knife""",,"#""ว่ามันมีแค่รอยแผลจากมีด"""
+[NewLine();],,[NewLine();]
+"#""wound.""",,"#""แค่จุดเดียว"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""...""",,"#""..."""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(Apparently, Ms. Starr isn't""",,"#""(ดูเหมือนกับว่าคุณ<สตาร์>"""
+[NewLine();],,[NewLine();]
+"#""entirely sure of her own""",,"#""ก็ไม่ค่อยมั่นใจในคำเบิกความ"""
+[NewLine();],,[NewLine();]
+"#""testimony.)""",,"#""ของเธอเหมือนกัน)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""Mr. Wright!""",,"#""คุณ<ไรท์>!"""
+[NewLine();],,[NewLine();]
+"#""This is our chance!!!""",,"#""นี่แหละโอกาสของพวกเรา!!!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""Chance for what, I wonder...?""",,"#""โอกาสอะไรนะ...?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+"#""You say she stabbed him""",,"#""คุณบอกว่าเธอแทงเขา"""
+[NewLine();],,[NewLine();]
+"#""again and again...""",,"#""ครั้งแล้วครั้งเล่า..."""
+[ReadKey();],,[ReadKey();]
+"#""But you couldn't have""",,"#""แต่คุณไม่ควร"""
+[NewLine();],,[NewLine();]
+"#""witnessed that!""",,"#""ที่จะเห็นมันได้นะ!"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""Are you testing me...?""",,"#""กำลังทดสอบฉันเหรอ...?"""
+[NewLine();],,[NewLine();]
+"#""Then I'll test you!""",,"#""งั้นฉันจะทดสอบคุณ!"""
+[ReadKey();],,[ReadKey();]
+"#""With my Moss Surprise!!!""",,"#""ด้วย ""มอสเซอร์ไพร์ส""!!!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""I'm afraid the moss is""",,"#""ผมเกรงว่ามอส"""
+[NewLine();],,[NewLine();]
+"#""growing under our feet as """,,"#""กำลังโตอยู่ใต้เท้าเรา"""
+[NewLine();],,[NewLine();]
+"#""we wait, Ms. Starr.""",,"#""ในขณะที่เรารอกันอยู่นะ คุณ<สตาร์>"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""...!?""",,"#""...!?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""W-""",,"#""ม-"""
+[Wait(8);],,[Wait(8);]
+"#""what do you mean?""",,"#""หมายความว่าไง?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""I shouldn't have to explain""",,"#""ผมคงไม่ต้องมาอธิบงอธิบาย"""
+[NewLine();],,[NewLine();]
+"#""this...""",,"#""อะไรนี่หรอก..."""
+[NewLine();],,[NewLine();]
+"#""But, take a look.""",,"#""แต่ดูนี่สิ"""
+[ReadKey();],,[ReadKey();]
+"#""The autopsy report states that""",,"#""ผลการชันสูตรศพบอกไว้"""
+[NewLine();],,[NewLine();]
+"#""death was due to a loss of""",,"#""ว่าการตายเกิดจากการเสียเลือดมาก"""
+[NewLine();],,[NewLine();]
+"#""blood... from """,,"#""...ซึ่งเป็นผลจากการแทงเพียง"""
+[SetTextColor(Red);],,[SetTextColor(Red);]
+"#""one""",,"#""ครั้งเดียว"""
+[SetTextColor(White);],,[SetTextColor(White);]
+"#"" stab wound.""",,"#""เท่านั้น"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Ah """,,"#""อ่า """
+[Wait(20);],,[Wait(20);]
+"#""hah!""",,"#""ฮ่าาา!"""
+[Wait(20);],,[Wait(20);]
+"#"" """,,"#"" """
+"#""You'""",,"#""จริงๆ"""
+"#""re ri""",,"#""ด้วย"""
+"#""ght!""",,"#""!"""
+[NewLine();],,[NewLine();]
+"#""Good show, Mr. Edgeworth!""",,"#""เยี่ยมมาก คุณ<เอ็จเวิร์ธ>!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Ema],,[Ema]
+"#""What a hunk!""",,"#""สุดยอดเลย!"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""He's my hero,""",,"#""เขาคือฮีโร่ของหนูเลย"""
+[Wait(10);],,[Wait(10);]
+"#"" really.""",,"#""จริงๆ"""
+[Op_2D();],,[Op_2D();]
+,,
+[Phoenix Wright],,[Phoenix Wright]
+[SetTextColor(Blue);],,[SetTextColor(Blue);]
+"#""(What about my objection?""",,"#""(แล้วขอคัดค้านฉันตะกี้ล่ะ?"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""No one noticed?)""",,"#""ไม่มีใครสังเกตเหรอ?)"""
+[SetTextColor(White);],,[SetTextColor(White);]
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Well, """,,"#""ว่าไงครับ"""
+"#""witness?""",,"#""พยาน?"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""You got """,,"#""ท่านสั่ง """
+"#""the Crime""",,"#"""""
+[NewLine();],,[NewLine();]
+"#""Scene Set, """,,"#""""เซ็ตสถานที่เกิดเหตุ"""""
+[Wait(10);],,[Wait(10);]
+"#""right?""",,"#"" ใช่ไหมคะ?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Judge],,[Judge]
+"#""Uh...""",,"#""เอ่อ..."""
+[Wait(20);],,[Wait(20);]
+"#"" oh, thanks.""",,"#"" โอ่ ขอบใจ"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""I always believed that no one""",,"#""ฉันเชื่อมาตลอดว่าไม่มีใคร"""
+[NewLine();],,[NewLine();]
+"#""could ever mistake ketchup""",,"#""ที่มองซอสมะเขือเทศผิด"""
+[NewLine();],,[NewLine();]
+"#""for blood...""",,"#""เป็นเลือด..."""
+[ReadKey();],,[ReadKey();]
+"#""But now, I realize that such""",,"#""แต่ตอนนี้ ฉันเข้าใจแล้ว"""
+[NewLine();],,[NewLine();]
+"#""mistakes are possible.""",,"#""ว่าความผิดพลาดมันเกิดกันได้"""
+[Op_2D();],,[Op_2D();]
+,,
+[Miles Edgeworth],,[Miles Edgeworth]
+"#""So...""",,"#""แสดงว่า..."""
+[NewLine();],,[NewLine();]
+"#""You're saying you mistook""",,"#""คุณกำลังจะบอกว่าคุณมองอะไร"""
+[NewLine();],,[NewLine();]
+"#""something...""",,"#""ผิดไป..."""
+[Wait(20);],,[Wait(20);]
+"#"" for blood?""",,"#"" แล้วนึกว่าเป็นเลือด?"""
+[Op_2D();],,[Op_2D();]
+,,
+[Starr],,[Starr]
+"#""When she lifted her knife, I""",,"#""ตอนที่เธอยกมีดขึ้น"""
+[NewLine();],,[NewLine();]
+"#""thought I saw blood at her""",,"#""ฉันคิดว่าฉันเห็นเลือด"""
+[NewLine();],,[NewLine();]
+"#""breast...""",,"#""บนอกของเธอ..."""
+[ReadKey();],,[ReadKey();]
+"#""Splattered blood from her""",,"#""เลือดที่กระจายออก"""
+[NewLine();],,[NewLine();]
+"#""victim!""",,"#""มาจากเหยื่อของเธอ!"""
+[ReadKey();],,[ReadKey();]
+"#""That's why I thought she""",,"#""นั่นแหละทำไมฉันถึงคิดว่าเธอ"""
+[NewLine();],,[NewLine();]
+"#""must have stabbed him at""",,"#""ต้องแทงเขาไปอย่างน้อย"""
+[NewLine();],,[NewLine();]
+"#""least twice.""",,"#""สองครั้ง"""
+[ReadKey();],,[ReadKey();]
+,,
+[Judge],,[Judge]
+"#""Then tell us what you saw that""",,"#""ถ้างั้นบอกพวกเราที"""
+[NewLine();],,[NewLine();]
+"#""you thought was blood!""",,"#""ว่าคุณเห็นอะไรเป็นเลือด!"""
+"#"" """,,"#"" """
+"#""Testify!""",,"#""เบิกความได้!"""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+"#""...""",,"#""..."""
+[ReadKey();],,[ReadKey();]
+,,
+[Starr],,[Starr]
+,,
+[Judge],,[Judge]
+"#""That's enough!""",,"#""พอได้แล้ว!"""
+[ReadKey();],,[ReadKey();]
+"#""This court sees no reason to""",,"#""ไม่มีเหตุใดที่ศาลจะ"""
+[NewLine();],,[NewLine();]
+"#""further prolong the trial.""",,"#""พิจารณาคดีนี้ต่อไปอีก"""
+[ReadKey();],,[ReadKey();]
+"#""The defense has failed to give""",,"#""ฝ่ายจำเลยไม่สามารถแสดง"""
+[NewLine();],,[NewLine();]
+"#""the court sufficient reason to""",,"#""ให้ศาลเห็นได้ว่าคำกล่าวอ้าง"""
+[NewLine();],,[NewLine();]
+"#""doubt the prosecution's claim!""",,"#""ของฝ่ายโจทก์ไม่มีน้ำหนักจริง!"""
+[ReadKey();],,[ReadKey();]
+"#""This court finds the""",,"#""ศาลขอตัดสินให้"""
+[NewLine();],,[NewLine();]
+"#""defendant, Ms. Lana Skye...""",,"#""จำเลย คุณ<ลาน่า สกาย>..."""
+[ReadKey();],,[ReadKey();]
+"#""The accused will surrender""",,"#""จำเลยจะต้องถูกควบคุมตัวไว้"""
+[NewLine();],,[NewLine();]
+"#""to the court immediately,""",,"#""โดยพนักงานศาลทันที"""
+[ReadKey();],,[ReadKey();]
+"#""to be held pending trial at""",,"#""เพื่อรอการพิจารณาคดี"""
+[NewLine();],,[NewLine();]
+"#""a higher court within a""",,"#""ในชั้นอุทธรณ์ภายในหนึ่งเดือน"""
+[NewLine();],,[NewLine();]
+"#""month from today's date.""",,"#""นับจากวันนี้เป็นต้นไป"""
+[ReadKey();],,[ReadKey();]
+"#""That is all.""",,"#""ขอจบการพิจารณาคดีเพียงเท่านี้"""
+[Wait(20);],,[Wait(20);]
+[NewLine();],,[NewLine();]
+"#""This court is adjourned!""",,"#""เลิกศาลได้!"""
+[ReadKey();],,[ReadKey();]
+[Op_15();],,[Op_15();]
