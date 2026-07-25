@@ -32,40 +32,35 @@ This repository contains the localization scripts, tools, and specialized guides
 
 ---
 
-## 🤖 AI Agent Autonomous Workflow (Optimal Translation Execution)
+## 🚀 How to Prompt Your AI Agent (Human Guide)
 
-You are an agentic AI coding assistant tasked with translating script files in this repository. Follow this optimal autonomous workflow to execute translations efficiently and correctly.
+Once you have extracted the dialogue text file (e.g., `Workspace/extracted_dialogue.txt`) using the `extract` tool command in **Step 1**, you can prompt your AI translation agent using the template below. 
 
-### Step 1: Automated Dialogue Extraction
-Before starting translation, run `Scripts/translate_helper.py` in your shell using the `extract` command. This strips out engine commands, speaker labels, and non-translatable text into a clean text file, reducing your active context size by ~80%:
-```bash
-python3 Scripts/translate_helper.py extract -i "Workspace/Original/<file_name>.txt" -o "Workspace/<file_name>_dialogue.txt"
+Copy and paste this template prompt into the chat with your AI agent to ensure optimal translation fidelity and structural alignment:
+
+---
+
+### 📋 Copy-Paste Agent Prompt Template
+
+```text
+You are an expert Thai localizer. I want you to translate the English dialogue lines located in the file:
+`[Insert path to Workspace/extracted_dialogue.txt]`
+
+Your goal is to translate only the text after the '->' symbol on each line. Output the translation format exactly as `LINE_XXXXX: English text -> Thai translation`. Do not modify the original line numbers or prefix tags.
+
+Before you begin, read and strictly comply with the localization and formatting guides in this repository:
+1. Guides/agent_guide.md - Syntax, spacing, phonetic stuttering (e.g. ม-ม-ไม่), punctuation rules, and dialogue distribution.
+2. Guides/name_reference.md - Person name wrapping rule in `<>` brackets (e.g., `<นิค>`, `<มายา>`) and standard core spellings.
+3. Guides/pronouns_and_relationship.md - Core character pronouns and register dynamics (e.g., Maya Fey sibling register vs Pearl Fey polite register).
+4. Guides/[Insert active episode guide, e.g., ep3_big_top_reference.md] - Specific character voice dialects, terminology, and episode spellings.
+
+Important Constraints:
+- Do not overuse casual particles like 'นะ', 'น่ะ', 'ล่ะ'. Maintain Maya's sisterly register naturally by avoiding formal particles (ค่ะ/คะ/นะคะ) instead of repetitive ending particles.
+- Dialogue distribution: Translate the dialogue sections naturally, and distribute the Thai text across the original lines as closely to the original splits as possible. Squash/combine only when grammatically necessary (subsequent combined lines must be left strictly as `#""`).
+- Flush-Left: Any line immediately following a [NewLine();] or [ReadKey();] command must not start with a leading space.
+- No backslashes: Do not escape internal quotation marks with backslashes (\). Use straight double quotes ("").
+
+If the input file has more than 300 dialogue lines, you are highly encouraged to split the file into smaller chunks, translate them using subagents, and concatenate the outputs back to save token limits.
 ```
-*Note: Never attempt to translate or parse raw CSV/template scripts directly. Only process the extracted dialogue file.*
 
-### Step 2: Context Selection & Context Loading
-Read and load ONLY the relevant guides from `Guides/` into your active context:
-1. Always load **[agent_guide.md](file:///home/beaver_bloyde/Desktop/ATT%20Project/AI%20Training/Guides/agent_guide.md)** (syntax/formatting rules).
-2. Always load **[name_reference.md](file:///home/beaver_bloyde/Desktop/ATT%20Project/AI%20Training/Guides/name_reference.md)** and **[pronouns_and_relationship.md](file:///home/beaver_bloyde/Desktop/ATT%20Project/AI%20Training/Guides/pronouns_and_relationship.md)** (core characters register).
-3. **Isolate Reference Context:** Read only the active chapter-specific guide (e.g., **[ep3_big_top_reference.md](file:///home/beaver_bloyde/Desktop/ATT%20Project/AI%20Training/Guides/ep3_big_top_reference.md)**). Do not read other episode files to minimize prompt token overhead.
-
-### Step 3: Concurrency and Chunking
-If the extracted dialogue text contains over 300 dialogue lines:
-- Write a short python script to split the dialogue file into smaller files (approx. 300 dialogues each) in your scratch directory.
-- Define a specialized translation subagent type equipped with these guides, and launch multiple subagents concurrently to translate the chunks in parallel.
-- Concatenate the outputs when done.
-
-### Step 4: Automated Merging
-Reassemble the translated dialogue lines back into the original template structure to generate the final playable script in `Workspace/Translated/`:
-```bash
-python3 Scripts/translate_helper.py merge -g "Workspace/Original/<file_name>.txt" -t "Workspace/<file_name>_translated.txt" -o "Workspace/Translated/<file_name>.txt"
-```
-
-### Step 5: Integrity Validation
-Before concluding, verify your output:
-- Ensure the line count of the merged output file exactly matches the original template.
-- Write a script to verify that no color formatting commands (`[SetTextColor(...);]`) are wrapped around empty strings `#""`.
-- Verify that spacing after line breaks (`[NewLine();]` and `[ReadKey();]`) starts flush-left, and tag spacing around `<...>` names is tight.
-- Clean up all backslashes (`\`) from the final dialogue lines.
-- Stage your changes and commit them cleanly in git.
 
