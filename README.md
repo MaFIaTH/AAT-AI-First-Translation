@@ -20,6 +20,7 @@ This repository contains the localization scripts, tools, and specialized guides
   - `Refined/`: Human-refined polished translation drafts.
   - `Translated/`: Reassembled merged Thai translation script.
 - **`Example/`**: Reference CSV scripts for script testing.
+- **[ai_training_guide.md](file:///home/beaver_bloyde/Desktop/ATT%20Project/AI%20Training/ai_training_guide.md)**: Human guide detailing how to prompt the AI agent to translate new cases, learn from human refinements, and update localization references autonomously.
 
 ---
 
