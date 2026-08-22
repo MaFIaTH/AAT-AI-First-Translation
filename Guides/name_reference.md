@@ -30,6 +30,8 @@ Prefer **no space** immediately before or after name tags (e.g., `เห็น<�
 - **`Master`** (of the Kurain Fey Clan) $\rightarrow$ **`ปรมาจารย์`** (never `ท่านเจ้าสำนัก` or `เจ้าสำนัก`).
 - **`Winding Way`** $\rightarrow$ **`ทางคดเคี้ยว`**.
 - **`Steel Samurai`** $\rightarrow$ **`ซามูไรเหล็กไหล`** (Steel Samurai show localization).
+- **`Court Record`** $\rightarrow$ **`บันทึกคดี`** (never `สำนวนคดี` when referencing the active court records index).
+- **`Testimony` (in court/trial)** $\rightarrow$ **`คำเบิกความ`** (never `คำให้การ`, which is reserved for pre-trial police statements).
 
 ---
 

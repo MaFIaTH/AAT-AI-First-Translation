@@ -42,7 +42,8 @@ Always adhere strictly to each character's assigned relationship voice register.
   - **Self-pronoun:** `หนู` / `ฉัน`.
   - **Address:** `พี่<นิค>`.
   - **Ending particles:** Use natural conversational endings. Avoid over-abusing casual particles like `นะ`, `น่ะ`, or `ล่ะ` on every line (which sounds repetitive and unnatural). Just ensure she does not sound too formal with Phoenix.
-  - **DO NOT USE:** `ค่ะ`, `คะ`, `นะคะ`, or `เจ้าค่ะ` (avoid formal or archaic particles to keep the dynamic casual, but maintain natural conversational flow).
+  - **Politeness to Older/Respected Characters:** While she drops formal particles with Phoenix, she must use polite registers (`ค่ะ`, `คะ`, `นะคะ`) and polite honorifics (`คุณ<Name>`) when speaking to older characters or people she respects out of politeness (e.g., `ขอบคุณนะคะ คุณ<โม>!`).
+  - **DO NOT USE:** `ค่ะ`, `คะ`, `นะคะ`, or `เจ้าค่ะ` *only when speaking directly to Phoenix* (avoid formal or archaic particles with him to keep their dynamic casual, but maintain natural conversational flow).
 - **Pearl Fey:** Formal, extremely polite disciple dynamic.
   - **Self-pronoun:** `หนู`.
   - **Address:** `คุณ<นิค>`, `ท่านหญิง<มายา>`.

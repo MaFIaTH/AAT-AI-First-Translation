@@ -12,7 +12,7 @@ This reference guide details names spelling dictionary, terminology standards, p
 | Bat | แบท | `<แบท>` | |
 | Regina Berry | เรจิน่า เบอร์รี่ | `<เรจิน่า เบอร์รี่>` | |
 | Russell Berry | รัสเซล เบอร์รี่ | `<รัสเซล เบอร์รี่>` | Ringmaster |
-| Max Galactica | แม็กซิมิเลี่ยน กาแลกติก้า | `<แม็กซิมิเลี่ยน กาแลกติก้า>` (Nick: `<แม็กซิมิเลี่ยน>`) | Standardized with tone mark |
+| Max Galactica | แม็กซิมิเลี่ยน กาแลกติก้า | `<แม็กซิมิเลี่ยน กาแลกติก้า>` (Nick: `<แม็กซิมิเลี่ยน>`, `<กาแลกติก้า>`, or Maya's casual nickname `คุณ<แม็ก>`) | Standardized with tone mark |
 | Moe | โม | `<โม>` (Lawrence Moe Curls: `<ลอว์เรนส์ โม เคิร์ลล์>`) | |
 | Money (monkey) | มันนี่ | `<มันนี่>` | |
 | Regent (tiger) | รีเจ้นท์ | `<รีเจ้นท์>` | |
@@ -24,7 +24,8 @@ This reference guide details names spelling dictionary, terminology standards, p
 
 ## 2. Terminology Standards (EP3 Only)
 - **`Ringmaster`** $\rightarrow$ **`หัวหน้าคณะ`** (standard Thai circus vocabulary; refined from raw "ผู้จัดการละครสัตว์").
-- **`Big Top`** $\rightarrow$ **`เต็นท์ใหญ่`** (refined from raw "กระโจมใหญ่").
+- **`Berry Big Circus`** $\rightarrow$ **`คณะละครสัตว์<เบอร์รี่บิ๊ก>`** (standardized spelling with tone mark and name tags).
+- **`Big Top`** $\rightarrow$ **`เต็นท์ใหญ่<เบอร์รี่>`** or **`เต็นท์ใหญ่`** (refined from raw "กระโจมใหญ่").
 - **`Troupe member`** $\rightarrow$ **`ลูกคณะ`**.
 - **`Puppet / Ventriloquist doll`** $\rightarrow$ **`หุ่น`** or **`หุ่นพากย์`** (refined from raw "ตุ๊กตา").
 - **`Attorney Badge`** $\rightarrow$ **`ตรา`** (refined from raw "เข็มกลัด").
