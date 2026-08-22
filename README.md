@@ -36,7 +36,13 @@ This repository contains the localization scripts, tools, and specialized guides
 
 The AI agent is responsible for executing tools, running scripts, updating guidelines, and validating output autonomously by reading the rules inside the `Guides/` directory. 
 
-As a human coordinator, your prompts should be simple and direct:
+### ⚠️ Pre-requisite: Initializing the AI Agent (Mandatory First Step)
+Before asking the AI to translate or edit files, you **must** force the agent to load the master guidelines into its active context. Copy and paste this prompt first:
+> *"Acknowledge that you have read the master guidelines inside `Guides/agent_guide.md`, `Guides/name_reference.md`, and `Guides/pronouns_and_relationship.md`. Summarize their top 3 most critical rules to confirm your understanding."*
+
+Once the AI agent summarizes the rules correctly, proceed with the workflow prompts below:
+
+---
 
 ### 🛠️ Scenario 1: Translating a New Case for the First Time
 When a new script template is ready for translation:
@@ -45,12 +51,16 @@ When a new script template is ready for translation:
    > *"Translate the new script at `Workspace/Original/ep4_template.txt`."*
 3. **Autonomous AI Action**: The AI agent reads the guides, runs the extraction command, translates the lines, runs verification checks, and merges the final script.
 
+---
+
 ### 🔄 Scenario 2: Training the AI with a Human-Refined Script
 When you have polished a script and want the AI to learn your style rules, vocabulary, and registers:
 1. **Human Action**: Place the polished script in the `Workspace/Refined/` directory.
 2. **Human Prompt**:
    > *"I have finished refining `Workspace/Refined/sc2_0_text_u_refined.txt`. Please run a comparison check against `Workspace/Translated/sc2_0_text_u.txt`, update the master guides inside `Guides/` to incorporate my refined spelling/register choices, and commit the updates to Git."*
 3. **Autonomous AI Action**: The AI agent performs the discrepancy check, updates the spelling dictionaries and relationship guides, and commits the changes.
+
+---
 
 ### ✍️ Scenario 3: Updating the AI Guide for a Specific Case
 When you want to add unique character speech patterns, accents, or dialects:
