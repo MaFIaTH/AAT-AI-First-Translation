@@ -53,6 +53,7 @@ Follow these instructions:
    - `Guides/name_reference.md` (name wrapping rules, core spellings)
    - `Guides/pronouns_and_relationship.md` (pronouns, register dynamics)
    - `Guides/[active_chapter_reference].md` (episode-specific names, terminology, and character registers)
+3. **Mandatory Verification Check**: Before submitting the final translation, run a proofreading/validation sweep over your translated lines using `Scripts/translate_helper.py verify -t <translated_file>` (or write a scratch verification script) to check for structural typos, mismatched name tags `<>`, odd quote counts, invalid backslashes `\`, and spacing anomalies. Report and correct any errors found.
 
 If the file contains more than 300 dialogue lines, you are highly encouraged to chunk it and translate concurrently using subagents.
 ```

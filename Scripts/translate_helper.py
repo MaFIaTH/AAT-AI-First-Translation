@@ -161,6 +161,83 @@ def merge_translation(original_csv_path, translated_txt_path, output_csv_path):
 
     print(f"Successfully merged translations into {output_csv_path}")
 
+def verify_translation(translated_txt_path):
+    """
+    Verifies the translated txt file for syntax errors, mismatched brackets,
+    backslashes, spacing errors, and missing translations.
+    """
+    line_pattern = re.compile(r"^LINE_(\d{5}): (.*?) ->\s*(.*)$")
+    errors = []
+    warnings = []
+    
+    with open(translated_txt_path, mode='r', encoding='utf-8') as f:
+        for line_num, line in enumerate(f, 1):
+            line_str = line.strip()
+            if not line_str or line_str.startswith('#'):
+                continue
+            
+            # Check if it's a command line
+            if line_str.startswith('[') and line_str.endswith(']'):
+                # Verify commands are not corrupted
+                if not re.match(r"^\[(NewLine\(\);|ReadKey\(\);|ClearText\(\);|Op_\d{2}\(\);|Wait\(\d+\);|SetTextColor\(\w+\);|[\w\s\(\);,]+)\]$", line_str):
+                    warnings.append(f"Line {line_num}: Potential corrupted command '{line_str}'")
+                continue
+                
+            match = line_pattern.match(line_str)
+            if not match:
+                errors.append(f"Line {line_num}: Line does not match the expected format (missing '->' or prefix)")
+                continue
+                
+            idx = match.group(1)
+            eng_text = match.group(2).strip()
+            thai_text = match.group(3).strip()
+            
+            # 1. Check for empty translation
+            if not thai_text and eng_text:
+                warnings.append(f"Line {line_num} (LINE_{idx}): Translation is empty. Verify if this is an intended squash.")
+                
+            # 2. Check for mismatched angle brackets in name tags
+            left_angle = thai_text.count('<')
+            right_angle = thai_text.count('>')
+            if left_angle != right_angle:
+                errors.append(f"Line {line_num} (LINE_{idx}): Mismatched name brackets '<' ({left_angle}) vs '>' ({right_angle}) in '{thai_text}'")
+                
+            # 3. Check for odd double quotes
+            quote_count = thai_text.count('"')
+            if quote_count % 2 != 0:
+                # We skip checking if it matches the original quote count (e.g. split quotes)
+                eng_quote_count = eng_text.count('"')
+                if quote_count % 2 != eng_quote_count % 2:
+                    errors.append(f"Line {line_num} (LINE_{idx}): Odd number of double quotes ({quote_count}) in '{thai_text}'")
+                
+            # 4. Check for invalid backslashes (escaping quotes)
+            if '\\' in thai_text:
+                errors.append(f"Line {line_num} (LINE_{idx}): Backslash '\\' found in '{thai_text}'. Do not use backslashes to escape quotes.")
+                
+            # 5. Check for spaces inside name tags e.g. < นิค >
+            if re.search(r"<\s+[^>]+|[^<]+\s+>", thai_text):
+                warnings.append(f"Line {line_num} (LINE_{idx}): Spaces found inside name tags in '{thai_text}' (e.g. '< นิค >')")
+
+    print("\n================ VERIFICATION RESULTS ================")
+    print(f"Total Errors: {len(errors)}")
+    print(f"Total Warnings: {len(warnings)}")
+    
+    if errors:
+        print("\n❌ ERRORS FOUND (Must be fixed):")
+        for err in errors:
+            print(f"  - {err}")
+            
+    if warnings:
+        print("\n⚠️ WARNINGS FOUND (Verify if intended):")
+        for warn in warnings:
+            print(f"  - {warn}")
+            
+    if not errors and not warnings:
+        print("\n✅ Verification passed! No issues found.")
+    print("======================================================\n")
+    
+    return len(errors) == 0
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="PWAA Translation Helper to reduce token usage.")
     subparsers = parser.add_subparsers(dest='command', required=True)
@@ -176,9 +253,15 @@ if __name__ == '__main__':
     parser_merge.add_argument('--translated', '-t', required=True, help='Path to the translated TXT file')
     parser_merge.add_argument('--output', '-o', required=True, help='Path to output translated CSV')
 
+    # Verify command
+    parser_verify = subparsers.add_parser('verify', help='Verify translated txt file for common formatting/syntax errors')
+    parser_verify.add_argument('--translated', '-t', required=True, help='Path to the translated TXT file')
+
     args = parser.parse_args()
 
     if args.command == 'extract':
         extract_dialogue(args.input, args.output)
     elif args.command == 'merge':
         merge_translation(args.original, args.translated, args.output)
+    elif args.command == 'verify':
+        verify_translation(args.translated)
