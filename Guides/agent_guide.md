@@ -122,7 +122,7 @@ To avoid wasting LLM tokens on empty lines, formatting instructions, and repetit
 #### Step 1: Extract dialogue lines
 Run the script to pull out dialogue lines from a script CSV into a compact TXT file:
 ```bash
-python3 Scripts/translate_helper.py extract -i "Example/sc4_0a_text_u.mdt - Example.csv" -o "sc4_0a_dialogue.txt"
+python3 Scripts/translate_helper.py extract -i "Workspace/Original/sc2_0_text_u.txt" -o "Workspace/sc2_0_dialogue.txt"
 ```
 
 #### Step 2: Feed dialogue text to the LLM
@@ -131,12 +131,12 @@ Provide the extracted TXT file to the LLM with instructions pointing to `Guides/
 #### Step 3: Proofread and Verify Translation
 Before merging, run the verify command on the translated TXT file to scan for structural and formatting issues (e.g. mismatched tags, odd quote counts, backslashes, spacing anomalies):
 ```bash
-python3 Scripts/translate_helper.py verify -t "sc4_0a_translated.txt"
+python3 Scripts/translate_helper.py verify -t "Workspace/sc2_0_translated.txt"
 ```
 Fix any reported errors before proceeding.
 
 #### Step 4: Merge translated dialogue back into the CSV
 Once verification passes, merge it back:
 ```bash
-python3 Scripts/translate_helper.py merge -g "Example/sc4_0a_text_u.mdt - Example.csv" -t "sc4_0a_translated.txt" -o "sc4_0a_text_u_translated.csv"
+python3 Scripts/translate_helper.py merge -g "Workspace/Original/sc2_0_text_u.txt" -t "Workspace/sc2_0_translated.txt" -o "Workspace/Translated/sc2_0_text_u.txt"
 ```

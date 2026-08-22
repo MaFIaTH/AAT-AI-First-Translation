@@ -19,7 +19,6 @@ This repository contains the localization scripts, tools, and specialized guides
   - `Original/`: Raw English source CSV script.
   - `Refined/`: Human-refined polished translation drafts.
   - `Translated/`: Reassembled merged Thai translation script.
-- **`Example/`**: Reference CSV scripts for script testing.
 
 ---
 
