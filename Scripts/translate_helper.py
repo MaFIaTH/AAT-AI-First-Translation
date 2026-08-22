@@ -1,42 +1,40 @@
-import csv
 import re
 import sys
 import argparse
 
-def parse_csv_row(row):
+def parse_line(line):
     """
-    Parses a CSV row. Returns (type, content)
-    Types: 'command', 'dialogue', 'empty'
+    Parses a single line from the script. Returns (type, content)
+    Types: 'command', 'dialogue', 'empty', 'other'
     """
-    if not row or (len(row) == 1 and not row[0].strip()):
+    line_str = line.strip()
+    if not line_str:
         return 'empty', ''
-    col1 = row[0].strip()
-    if col1.startswith('#"'):
-        # Extract the dialogue text inside the #"..." format
-        # e.g., #"It's been two months since" -> It's been two months since
-        # If it was escaped in CSV as "#""It's been two months since"""
-        # Python csv reader will automatically unescape it to #"It's been two months since"
-        dialogue_text = col1[2:-1] if col1.endswith('"') else col1[2:]
-        return 'dialogue', dialogue_text
-    elif col1.startswith('[') and col1.endswith(']'):
-        return 'command', col1
+    
+    if line_str.startswith('#"'):
+        # Extract dialogue text inside the #"..." format
+        content = line_str[2:]
+        if content.endswith('"'):
+            content = content[:-1]
+        return 'dialogue', content
+    elif line_str.startswith('[') and line_str.endswith(']'):
+        return 'command', line_str
     else:
-        return 'other', col1
+        return 'other', line_str
 
-def extract_dialogue(csv_path, txt_path):
+def extract_dialogue(txt_path, output_txt_path):
     """
-    Extracts dialogue lines from the CSV and formats them into a compact text file.
+    Extracts dialogue lines from the text script and formats them into a compact text file.
     """
-    with open(csv_path, mode='r', encoding='utf-8') as f:
-        reader = csv.reader(f)
-        rows = list(reader)
+    with open(txt_path, mode='r', encoding='utf-8') as f:
+        lines = f.readlines()
 
     current_speaker = "Clear Speaker"
     current_color = "White"
     extracted_lines = []
 
-    for idx, row in enumerate(rows):
-        row_type, content = parse_csv_row(row)
+    for idx, line in enumerate(lines):
+        row_type, content = parse_line(line)
         
         if row_type == 'command':
             # Track speaker and color
@@ -51,7 +49,7 @@ def extract_dialogue(csv_path, txt_path):
                 current_speaker = content[1:-1]
         
         elif row_type == 'dialogue':
-            # We save the row index (0-indexed) so we can map it back during merge
+            # Save the exact 0-indexed line number (idx) so we can map it back during merge
             context_str = f"#{current_speaker} ({current_color})"
             extracted_lines.append({
                 'type': 'dialogue',
@@ -61,7 +59,7 @@ def extract_dialogue(csv_path, txt_path):
             })
 
     # Write to target txt file
-    with open(txt_path, mode='w', encoding='utf-8') as f:
+    with open(output_txt_path, mode='w', encoding='utf-8') as f:
         f.write("# ========================================================\n")
         f.write("# PHOENIX WRIGHT TRANSLATION FILE (COMPACT FORMAT)\n")
         f.write("# Translate ONLY the text after the '->' symbol.\n")
@@ -80,11 +78,11 @@ def extract_dialogue(csv_path, txt_path):
                 # Output in format: LINE_00004: English text -> 
                 f.write(f"LINE_{item['index']:05d}: {item['text']} -> \n")
 
-    print(f"Successfully extracted {len(extracted_lines)} items to {txt_path}")
+    print(f"Successfully extracted {len(extracted_lines)} items to {output_txt_path}")
 
-def merge_translation(original_csv_path, translated_txt_path, output_csv_path):
+def merge_translation(original_txt_path, translated_txt_path, output_txt_path):
     """
-    Reads the translated txt file and merges it back into the original CSV layout.
+    Reads the translated txt file and merges it back into the original script layout.
     """
     # Read the translated txt lines
     translations = {}
@@ -92,81 +90,51 @@ def merge_translation(original_csv_path, translated_txt_path, output_csv_path):
 
     with open(translated_txt_path, mode='r', encoding='utf-8') as f:
         for line_num, line in enumerate(f, 1):
-            line = line.strip()
-            if not line or line.startswith('#'):
+            line_str = line.strip()
+            if not line_str or line_str.startswith('#'):
                 continue
             
-            match = line_pattern.match(line)
+            match = line_pattern.match(line_str)
             if match:
                 idx = int(match.group(1))
-                eng_text = match.group(2)
                 thai_translation = match.group(3).strip()
                 
-                # If there's no translation supplied, we fall back to empty or english
+                # If there's no translation supplied, we fall back to empty
                 if not thai_translation:
                     thai_translation = ""
                 
                 translations[idx] = thai_translation
-            else:
-                # Support lines that might have multiple lines or parsing issues
-                pass
 
-    # Read original CSV
-    with open(original_csv_path, mode='r', encoding='utf-8') as f:
-        reader = csv.reader(f)
-        rows = list(reader)
+    # Read original script
+    with open(original_txt_path, mode='r', encoding='utf-8') as f:
+        original_lines = f.readlines()
 
-    # Reconstruct CSV
-    output_rows = []
-    for idx, row in enumerate(rows):
-        row_type, content = parse_csv_row(row)
-        
+    # Reconstruct script lines
+    output_lines = []
+    for idx, line in enumerate(original_lines):
         if idx in translations:
             thai_text = translations[idx]
-            # Wrap in #"..." format
-            formatted_thai = f'#"{thai_text}"'
-            # Update Column 3 (index 2)
-            if len(row) >= 3:
-                row[2] = formatted_thai
-            elif len(row) == 2:
-                row.append(formatted_thai)
-            elif len(row) == 1:
-                row.extend(['', formatted_thai])
-            else:
-                row = ['', '', formatted_thai]
+            # Preserve leading spaces of the original line structure (if any)
+            leading_whitespace = line[:len(line) - len(line.lstrip())]
+            newline = "\n" if line.endswith("\n") else ""
+            
+            merged_line = f'{leading_whitespace}#"{thai_text}"{newline}'
+            output_lines.append(merged_line)
         else:
-            # For non-dialogue lines, Column 3 is the same as Column 1
-            if row_type == 'command':
-                val = row[0]
-            elif row_type == 'empty':
-                val = ''
-            else:
-                val = row[0]
-                
-            if len(row) >= 3:
-                row[2] = val
-            elif len(row) == 2:
-                row.append(val)
-            elif len(row) == 1:
-                row.extend(['', val])
-            else:
-                row = ['', '', val]
-                
-        output_rows.append(row)
+            output_lines.append(line)
 
-    # Write output CSV
-    with open(output_csv_path, mode='w', encoding='utf-8', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerows(output_rows)
+    # Write output script
+    with open(output_txt_path, mode='w', encoding='utf-8') as f:
+        f.writelines(output_lines)
 
-    print(f"Successfully merged translations into {output_csv_path}")
+    print(f"Successfully merged translations into {output_txt_path}")
 
 def verify_translation(translated_txt_path):
     """
     Verifies the translated txt file for syntax errors, mismatched brackets,
     backslashes, spacing errors, and missing translations.
     """
-    line_pattern = re.compile(r"^LINE_(\d{5}): (.*?) ->\s*(.*)$")
+    line_pattern = re.compile(r"^LINE_(\d{5}):\s*(.*?)\s*->\s*(.*)$")
     errors = []
     warnings = []
     
@@ -205,7 +173,6 @@ def verify_translation(translated_txt_path):
             # 3. Check for odd double quotes
             quote_count = thai_text.count('"')
             if quote_count % 2 != 0:
-                # We skip checking if it matches the original quote count (e.g. split quotes)
                 eng_quote_count = eng_text.count('"')
                 if quote_count % 2 != eng_quote_count % 2:
                     errors.append(f"Line {line_num} (LINE_{idx}): Odd number of double quotes ({quote_count}) in '{thai_text}'")
@@ -244,14 +211,14 @@ if __name__ == '__main__':
 
     # Extract command
     parser_extract = subparsers.add_parser('extract', help='Extract dialogue lines to a compact txt file')
-    parser_extract.add_argument('--input', '-i', required=True, help='Path to the original script CSV')
+    parser_extract.add_argument('--input', '-i', required=True, help='Path to the original script text file')
     parser_extract.add_argument('--output', '-o', required=True, help='Path to output compact TXT file')
 
     # Merge command
-    parser_merge = subparsers.add_parser('merge', help='Merge translated text back to the CSV')
-    parser_merge.add_argument('--original', '-g', required=True, help='Path to the original script CSV')
+    parser_merge = subparsers.add_parser('merge', help='Merge translated text back to the script')
+    parser_merge.add_argument('--original', '-g', required=True, help='Path to the original script text file')
     parser_merge.add_argument('--translated', '-t', required=True, help='Path to the translated TXT file')
-    parser_merge.add_argument('--output', '-o', required=True, help='Path to output translated CSV')
+    parser_merge.add_argument('--output', '-o', required=True, help='Path to output translated script file')
 
     # Verify command
     parser_verify = subparsers.add_parser('verify', help='Verify translated txt file for common formatting/syntax errors')
