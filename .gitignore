@@ -1,0 +1,15 @@
+# Ignore all content inside Workspace subdirectories
+Workspace/Original/*
+!Workspace/Original/.gitkeep
+
+Workspace/Refined/*
+!Workspace/Refined/.gitkeep
+
+Workspace/Translated/*
+!Workspace/Translated/.gitkeep
+
+# Ignore loose files in Workspace root
+Workspace/*
+!Workspace/Original/
+!Workspace/Refined/
+!Workspace/Translated/
