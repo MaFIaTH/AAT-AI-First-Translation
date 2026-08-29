@@ -54,14 +54,19 @@ In English scripts, dialogue is often split across multiple consecutive lines to
 ## 3. Formatting & Mechanical Rules
 
 ### A. Phonetic Stuttering
-In Thai, vowel markers (e.g., `เ`, `แ`, `ไ`, `ใ`, `โ`) are written before the initial consonant. Do not stutter on the written vowel (e.g., `ไ-ไ-ไม่` or `เ-เ-เท่าไหร่`). Systematically format stutters to repeat the **consonant sound** that is actually spoken:
+In Thai, vowel markers (e.g., `เ`, `แ`, `ไ`, `ใ`, `โ`) are written before the initial consonant. Do not stutter on the written vowel (e.g., `ไ-ไ-ไม่` or `เ-เ-เท่าไหร่`) and **never split a leading vowel from its consonant across lines** (e.g. `เ... เวที` / `ขึ้น?`). Systematically format stutters to repeat the **consonant sound** that is actually spoken:
 - **Incorrect:** `ไ-ไ-ไม่` $\rightarrow$ **Correct:** `ม-ม-ไม่` (M-M-Mai)
 - **Incorrect:** `เ-เ-เท่าไหร่` $\rightarrow$ **Correct:** `ท-ท-เท่าไหร่` (T-T-Tao-rai)
 - **Incorrect:** `ใ-ใ-ใช่` $\rightarrow$ **Correct:** `ช-ช-ใช่` (Ch-Ch-Chai)
 - **Incorrect:** `ตุ๊-ตุ๊-ตุ๊กตา` $\rightarrow$ **Correct:** `ห-ห-หุ่น` (H-H-Hun)
+- **Incorrect (vowel split):** `เ... เวที` / `ขึ้น?` $\rightarrow$ **Correct:** `ว-` / `เวที?` (Stuttering on 'Stage?')
 - **Incorrect:** `ย... แย่แล้ว!!` $\rightarrow$ **Correct:** `ง-ง-ง-งานเข้าแล้ว!!` (Ng-Ng-Ng-Ngan khao laew)
 
-### B. Dialogue Color Highlights (`[SetTextColor(Color);]`)
+### B. Prohibited Archaic Drama Language (ศาลยุคปัจจุบัน)
+Unless translating a character specifically speaking in an ancient historical register (like Spirit Medium incantations or Pearl's Kurain polite ending particles), **strictly prohibit archaic period-drama Thai** (`ภาษาจักรๆ วงศ์ๆ`) in modern settings like courtrooms:
+- **Prohibited Words:** `ข้าพเจ้า` (when used by modern characters like the Judge), `เทอญ`, `ฤๅ`, `เยี่ยง`, `ไย`, `ดั่ง`, `พึง`, `เป็นอันดีแล้ว`.
+
+### C. Dialogue Color Highlights (`[SetTextColor(Color);]`)
 Dialogue text in Ace Attorney often highlights key words (such as names, clues, or evidence) in red, blue, or other colors using the color command.
 - **Rule:** Do not squash or combine translated words that are highlighted in the original script into a single line. The translated highlighted word **must be placed between** the non-white color command and the `[SetTextColor(White);]` reset command, exactly matching the original structure so that the highlighting works correctly in-game.
 - **Example:**
@@ -78,28 +83,18 @@ Dialogue text in Ace Attorney often highlights key words (such as names, clues, 
     `[SetTextColor(White);]`
     `#"อยู่ที่ห้องของเขาบนชั้น 3"`
 
-### C. Spacing and Whitespace Rules
+### D. Spacing and Whitespace Rules
 1. **Preserve Spacing on Continuous Text:** For dialogue lines that continue a sentence/phrase without a line break (i.e., not separated by `[NewLine();]` or a screen-clear command like `[ReadKey();]`), spacing must be preserved. For example, `#"You know," [Wait(10);]` followed by `#" if she wasn't so"`. Ensure the leading space is kept in Thai so words do not run together.
 2. **Flush-Left on Line Breaks (No Leading Spaces):** Dialogue lines immediately following a `[NewLine();]`, `[ReadKey();]`, or screen-clear commands **must not** have a leading space. In-game, these commands force a fresh line or clear the screen, so starting with a space causes an ugly, unintentional text indentation.
-   - **Incorrect:**
-     `[NewLine();]`
-     `#" ไหนสักที่แล้วล่ะ..."`
-   - **Correct:**
-     `[NewLine();]`
-     `#"ไหนสักที่แล้วล่ะ..."`
 
-### D. Polite Particle Distribution & Casual Particle Usage
+### E. Polite Particle Distribution & Casual Particle Usage
 1. **Polite Particle Distribution:** Ace Attorney text boxes break dialogue into sub-lines. Do not append polite particles (`ครับ`, `ค่ะ`, `เจ้าค่ะ`) to every sub-line. Place these particles **only at the end of the complete thought block** (before `[ReadKey();]` or a screen-clear command) while intermediate lines end naturally without particles, preventing repetitive and unnatural stuttering in tone.
-2. **Selective Casual Particles:** For characters with casual registers (like Maya Fey), do not over-use casual particles (such as `นะ`, `น่ะ`, `ล่ะ`, `เนอะ`) on every sub-line. Keep the overall dialogue flow natural and use them selectively so they do not sound repetitive or childish; simply ensuring she does not sound formal with Phoenix is enough to establish her register.
+2. **Selective Casual Particles:** For characters with casual registers (like Maya Fey), do not over-use casual particles (such as `นะ`, `น่ะ`, `ล่ะ`, `เนอะ`) on every sub-line. Keep the overall dialogue flow natural and use them selectively.
 
-### E. Green Date/Location Cards
+### F. Green Date/Location Cards
 In the location and time overlay headings (e.g. `[SetTextColor(Green);]`), the word **`เวลา`** (time) is systematically omitted to keep the overlay clean and authentic.
 - **Incorrect:** `26 ธันวาคม เวลา 20:12 น.`
 - **Correct:** `26 ธันวาคม 20:12 น.`
-
-### F. Redundant Context Omission
-Extra phrases that are already clear from the immediate visual context should be dropped to keep the dialogue punchy.
-- **Example:** `ในศาลจะมีอัยการคนไหนมาทำคดี?` $\rightarrow$ `จะมีอัยการคนไหนมาทำคดี?` (dropping "in court" as it is visually obvious).
 
 ### G. Punctuation
 - **Omit English Periods (`.`):** Thai grammar does not use periods at the end of sentences. Omit trailing periods.
@@ -108,8 +103,8 @@ Extra phrases that are already clear from the immediate visual context should be
 
 ### H. Pacing and Wait Commands (`[Wait(N);]`)
 Game dialogue utilizes engine commands to deliver text with specific pacing and dramatic delivery.
-- **Preserve Pause Splits:** When a `[Wait(N);]` command sits between two lines of text in a dialogue block, it is intended to create a pause in speech delivery. Do not squash or combine text across a `[Wait(N);]` command. Keep the text before the wait on the pre-wait line, and the text after the wait on the post-wait line (e.g., separating "เอาเป็นว่า..." and "ที่นี่แหละ" across `[Wait(15);]`).
-- **Preserve Breathless/Gasping Splits:** When dialogue is split across multiple short consecutive lines without explicit wait or newline commands (e.g. `#"I..."` followed by `#" can't"`, `#"..."`, `#" breathe"`, `#"..."`), it is designed to print slowly to create a breathless, gasping effect. Avoid combining these into a single line; distribute the Thai translation across the original lines (e.g., `#"ผม..."`, `#" หาย"`, `#"ใจ"`, `#" ไม่"`, `#"ออก..."`) to replicate this gasping timing.
+- **Preserve Pause Splits:** When a `[Wait(N);]` command sits between two lines of text in a dialogue block, it is intended to create a pause in speech delivery. Do not squash or combine text across a `[Wait(N);]` command.
+- **Preserve Breathless/Gasping Splits:** When dialogue is split across multiple short consecutive lines without explicit wait or newline commands (e.g. `#"I..."` followed by `#" can't"`, `#"..."`, `#" breathe"`, `#"..."`), distribute the Thai translation across the original lines (e.g., `#"ผม..."`, `#" หาย"`, `#"ใจ"`, `#" ไม่"`, `#"ออก..."`) to replicate this gasping timing.
 
 ---
 
@@ -120,7 +115,7 @@ To avoid wasting LLM tokens on empty lines, formatting instructions, and repetit
 ### Workflow Commands:
 
 #### Step 1: Extract dialogue lines
-Run the script to pull out dialogue lines from a script CSV into a compact TXT file:
+Run the script to pull out dialogue lines from a script into a compact TXT file:
 ```bash
 python3 Scripts/translate_helper.py extract -i "Workspace/Original/sc2_0_text_u.txt" -o "Workspace/sc2_0_dialogue.txt"
 ```
@@ -135,7 +130,7 @@ python3 Scripts/translate_helper.py verify -t "Workspace/sc2_0_translated.txt"
 ```
 Fix any reported errors before proceeding.
 
-#### Step 4: Merge translated dialogue back into the CSV
+#### Step 4: Merge translated dialogue back into the script
 Once verification passes, merge it back:
 ```bash
 python3 Scripts/translate_helper.py merge -g "Workspace/Original/sc2_0_text_u.txt" -t "Workspace/sc2_0_translated.txt" -o "Workspace/Translated/sc2_0_text_u.txt"

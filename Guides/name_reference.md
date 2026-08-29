@@ -22,6 +22,25 @@ To facilitate automated global replacements of localized names, all character na
 ### B. Tag Spacing Rule
 Prefer **no space** immediately before or after name tags (e.g., `เห็น<มายา>บอก` is preferred over `เห็น <มายา> บอก`). It is rarer to see a space around tags in refined scripts, so keep formatting tight unless a space is stylistically required.
 
+### C. No Name Hallucination (Strict Rule)
+If a character's name does not exist in the original English dialogue line, **do not insert or inject a name tag** in the Thai translation.
+- **Pronoun usage:** When characters address each other naturally using pronouns like `you`, translate it using Thai interpersonal pronouns (e.g., `พี่`, `คุณ`, `นาย`, `เธอ`) **without adding the name tag `<>`**.
+- **Examples:**
+  - *English:* `Maybe you should leave the drama alone.` $\rightarrow$ **Correct:** `บางทีพี่ควรเก็บเรื่องดราม่าไว้ดีกว่า` (❌ **Incorrect:** `บางทีพี่<นิค>ควร...`).
+  - *English:* `I guess you didn't hear.` $\rightarrow$ **Correct:** `สงสัยพี่จะไม่ได้ยิน` (❌ **Incorrect:** `สงสัยพี่<นิค>จะ...`).
+  - *English:* `I'm sure you will win.` $\rightarrow$ **Correct:** `หนูมั่นใจว่าพี่จะชนะ` (❌ **Incorrect:** `หนูมั่นใจว่าพี่<นิค>...`).
+
+### D. Strict Name Length Matching (No Arbitrary Lengthening or Shortening)
+Translate names strictly according to the exact form written in the English source. **Never expand a shortened name or shorten a full name arbitrarily:**
+- **`Max`** $\rightarrow$ **`<แม็ก>`** (Do not lengthen to `<แม็กซิมิเลี่ยน>`).
+- **`Maximillion`** $\rightarrow$ **`<แม็กซิมิเลี่ยน>`**.
+- **`Maximillion Galactica`** $\rightarrow$ **`<แม็กซิมิเลี่ยน กาแลกติก้า>`**.
+- **`Nick`** $\rightarrow$ **`<นิค>`** (Do not lengthen to `<ฟีนิกซ์ ไรท์>`).
+- **`Mr. Wright`** $\rightarrow$ **`คุณ<ไรท์>`**.
+- **`Phoenix Wright`** $\rightarrow$ **`<ฟีนิกซ์ ไรท์>`**.
+- **`Ben`** $\rightarrow$ **`<เบ็น>`** (Do not lengthen to `<เบนจามิน วูดแมน>`).
+- **`Benjamin Woodman`** $\rightarrow$ **`<เบนจามิน วูดแมน>`**.
+
 ---
 
 ## 2. Standard Core Terminology
@@ -31,7 +50,10 @@ Prefer **no space** immediately before or after name tags (e.g., `เห็น<�
 - **`Winding Way`** $\rightarrow$ **`ทางคดเคี้ยว`**.
 - **`Steel Samurai`** $\rightarrow$ **`ซามูไรเหล็กไหล`** (Steel Samurai show localization).
 - **`Court Record`** $\rightarrow$ **`บันทึกคดี`** (never `สำนวนคดี` when referencing the active court records index).
+- **`Added to Court Record` (UI)** $\rightarrow$ **`ลงในบันทึกคดีแล้ว`** / **`ลงไปในบันทึกคดีแล้ว`**.
 - **`Testimony` (in court/trial)** $\rightarrow$ **`คำเบิกความ`** (never `คำให้การ`, which is reserved for pre-trial police statements).
+- **`Witness Stand`** $\rightarrow$ **`คอกพยาน`** or **`คอก`** (never `แท่นพยาน`).
+- **`Autopsy Report`** $\rightarrow$ **`รายงานผลชันสูตร`** (natural, concise court standard).
 
 ---
 
