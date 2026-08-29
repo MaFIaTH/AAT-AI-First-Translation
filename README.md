@@ -21,16 +21,15 @@ Make sure you have installed:
 #### Step 1: Clone the Repository
 Open your terminal (or Command Prompt / PowerShell / Git Bash) and run:
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/<REPO_NAME>.git
+git clone https://github.com/MaFIaTH/AAT-AI-First-Translation.git
 ```
-*(Replace the URL with the actual GitHub repository link).*
 
 #### Step 2: Open the Project Directory
 Navigate into the newly cloned project folder:
 ```bash
-cd "AI Training"
+cd "AAT-AI-First-Translation"
 ```
-*(Or drag and drop this folder directly into your AI agent IDE / terminal).*
+*(Or open/drag this folder into your AI agent IDE / terminal).*
 
 #### Step 3: Launch Your AI Agent CLI
 Start your CLI Agent in this folder. For example:
@@ -105,6 +104,9 @@ When you want to define specific dialects, accents, or special character names f
 ## ⚠️ CRITICAL DISCLAIMER: Token Consumption
 
 > [!WARNING]
-> Ace Attorney script files are massive (over 15,000 lines with speaker labels, engine commands, and line breaks). 
+> Ace Attorney script files are massive (often containing thousands of lines per case with complex branchings and engine commands).
 > 
-> **Never paste raw script files directly into chat prompts.** Always use the CLI Agent with the workflow above. The built-in extraction tool isolates active dialogue lines and reduces token consumption by over **80%**.
+> While this workflow uses automated extraction to cut token usage by over 80% (by stripping non-dialogue engine commands), **running a full case translation will still consume a massive amount of LLM tokens**.
+> 
+> - **Be mindful of rate limits & quota limits** on your LLM API subscription.
+> - **Never paste raw script files directly into chat prompts** — always let the CLI Agent run the extraction workflow to minimize unnecessary token burn.
